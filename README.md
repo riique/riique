@@ -1,6 +1,6 @@
 <div align="center">
 
-# 👋 Olá! Eu sou o Henrique Lenz
+# 👋 Olá! Eu sou o Henrique
 
 <img src="https://readme-typing-svg.herokuapp.com/?color=00bfbf&size=35&center=true&vCenter=true&width=1000&lines=Bem-vindo+ao+meu+perfil!;Desenvolvedor+em+formação;Apaixonado+por+tecnologia;Sempre+aprendendo+algo+novo!" />
 
