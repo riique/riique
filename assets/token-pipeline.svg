@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260" role="img" aria-label="Token-maxxing pipeline">
+  <defs>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+
+  <!-- ========== boxes ========== -->
+  <g filter="url(#soft)">
+    <rect x="24" y="72" width="128" height="68" rx="12" fill="#4c1d95" stroke="#c4b5fd" stroke-width="2"/>
+    <text x="88" y="113" text-anchor="middle" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="700">IDEIA</text>
+  </g>
+
+  <g filter="url(#soft)">
+    <rect x="210" y="56" width="168" height="100" rx="12" fill="#1e3a8a" stroke="#93c5fd" stroke-width="2"/>
+    <text x="294" y="96" text-anchor="middle" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700">PROMPT</text>
+    <text x="294" y="118" text-anchor="middle" fill="#dbeafe" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">desnecessariamente</text>
+    <text x="294" y="134" text-anchor="middle" fill="#dbeafe" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">detalhado</text>
+  </g>
+
+  <g filter="url(#soft)">
+    <rect x="436" y="56" width="158" height="100" rx="12" fill="#7f1d1d" stroke="#fca5a5" stroke-width="2"/>
+    <text x="515" y="96" text-anchor="middle" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700">CONTEXTO</text>
+    <text x="515" y="118" text-anchor="middle" fill="#fee2e2" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">em estado</text>
+    <text x="515" y="134" text-anchor="middle" fill="#fee2e2" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">crítico</text>
+  </g>
+
+  <g filter="url(#soft)">
+    <rect x="652" y="56" width="158" height="100" rx="12" fill="#14532d" stroke="#86efac" stroke-width="2"/>
+    <text x="731" y="96" text-anchor="middle" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700">PRODUTO</text>
+    <text x="731" y="118" text-anchor="middle" fill="#dcfce7" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">mais ou menos</text>
+    <text x="731" y="134" text-anchor="middle" fill="#dcfce7" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">funcionando</text>
+  </g>
+
+  <g filter="url(#soft)">
+    <rect x="868" y="56" width="112" height="100" rx="12" fill="#7c2d12" stroke="#fdba74" stroke-width="2"/>
+    <text x="924" y="90" text-anchor="middle" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="700">AUMENTO</text>
+    <text x="924" y="108" text-anchor="middle" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="700">DE ESCOPO</text>
+    <text x="924" y="132" text-anchor="middle" fill="#ffedd5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10">"já que estamos</text>
+    <text x="924" y="146" text-anchor="middle" fill="#ffedd5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10">aqui..."</text>
+  </g>
+
+  <!-- ========== forward connectors (line ends at triangle BASE center) ========== -->
+  <!-- box edges: 152 | 210 · 378 | 436 · 594 | 652 · 810 | 868 -->
+  <!-- each: line to base center, triangle tip almost touches next box -->
+
+  <!-- IDEIA -> PROMPT -->
+  <line x1="152" y1="106" x2="190" y2="106" stroke="#8b949e" stroke-width="2.5" stroke-linecap="butt"/>
+  <polygon points="190,100 190,112 204,106" fill="#8b949e"/>
+
+  <!-- PROMPT -> CONTEXTO -->
+  <line x1="378" y1="106" x2="416" y2="106" stroke="#8b949e" stroke-width="2.5" stroke-linecap="butt"/>
+  <polygon points="416,100 416,112 430,106" fill="#8b949e"/>
+
+  <!-- CONTEXTO -> PRODUTO -->
+  <line x1="594" y1="106" x2="632" y2="106" stroke="#8b949e" stroke-width="2.5" stroke-linecap="butt"/>
+  <polygon points="632,100 632,112 646,106" fill="#8b949e"/>
+
+  <!-- PRODUTO -> ESCOPO -->
+  <line x1="810" y1="106" x2="848" y2="106" stroke="#8b949e" stroke-width="2.5" stroke-linecap="butt"/>
+  <polygon points="848,100 848,112 862,106" fill="#8b949e"/>
+
+  <!-- ========== feedback loop ========== -->
+  <!--
+    Path ends EXACTLY at the midpoint of the triangle base.
+    Triangle points UP into PROMPT (bottom center x=294).
+    Base is horizontal; tip is above base.
+    Line does NOT pass through the triangle body.
+  -->
+  <!-- tip of arrow (below PROMPT box bottom y=156) -->
+  <!-- base y = 178, tip y = 160, base half-width = 9 -->
+  <path
+    d="M 924 156
+       L 924 178
+       C 924 218, 294 218, 294 178"
+    fill="none"
+    stroke="#c4b5fd"
+    stroke-width="2.5"
+    stroke-dasharray="7 6"
+    stroke-linecap="butt"
+    stroke-linejoin="round"
+  />
+  <!-- base center = (294, 178) = path end; tip = (294, 160) -->
+  <polygon points="294,160 285,178 303,178" fill="#c4b5fd"/>
+
+  <!-- label BELOW the dashed arc (arc bottom ~ y=218) -->
+  <text
+    x="609"
+    y="248"
+    text-anchor="middle"
+    fill="#c4b5fd"
+    font-family="Segoe UI, Helvetica, Arial, sans-serif"
+    font-size="13"
+    font-style="italic"
+  >mais tokens</text>
+</svg>

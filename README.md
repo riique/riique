@@ -37,7 +37,7 @@ IA é minha principal ferramenta de implementação; eu fico com a ideia, a espe
 </p>
 
 <p align="center">
-  <img src="./assets/token-maxxing-pipeline.svg" alt="Token-maxxing pipeline" width="980" />
+  <img src="https://raw.githubusercontent.com/riique/riique/main/assets/token-pipeline.svg?v=3" alt="Token-maxxing pipeline" width="1000" />
 </p>
 
 <p align="center">
