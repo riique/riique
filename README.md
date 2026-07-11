@@ -36,32 +36,9 @@ IA é minha principal ferramenta de implementação; eu fico com a ideia, a espe
   <sub>Até agora, tenho obtido principalmente tokens por produto.</sub>
 </p>
 
-```mermaid
-flowchart LR
-    A["IDEIA"]
-    B["PROMPT<br/>desnecessariamente detalhado"]
-    C["CONTEXTO<br/>em estado crítico"]
-    D["PRODUTO<br/>mais ou menos funcionando"]
-    E["AUMENTO DE ESCOPO<br/>'já que estamos aqui...'"]
-
-    A --> B
-    B --> C
-    C --> D
-    D --> E
-    E -. mais tokens .-> B
-
-    classDef idea fill:#4c1d95,stroke:#c4b5fd,color:#ffffff,stroke-width:2px;
-    classDef prompt fill:#1e3a8a,stroke:#93c5fd,color:#ffffff,stroke-width:2px;
-    classDef context fill:#7f1d1d,stroke:#fca5a5,color:#ffffff,stroke-width:2px;
-    classDef product fill:#14532d,stroke:#86efac,color:#ffffff,stroke-width:2px;
-    classDef scope fill:#7c2d12,stroke:#fdba74,color:#ffffff,stroke-width:2px;
-
-    class A idea;
-    class B prompt;
-    class C context;
-    class D product;
-    class E scope;
-```
+<p align="center">
+  <img src="./assets/token-maxxing-pipeline.svg" alt="Token-maxxing pipeline" width="980" />
+</p>
 
 <p align="center">
   <sub>
