@@ -22,15 +22,15 @@ Transformo ideias em código.
 
 ### github
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=riique&show_icons=true&count_private=true&hide_border=true&title_color=a855f7&icon_color=a855f7&text_color=c9d1d9&bg_color=00000000" alt="Stats" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=riique&layout=compact&hide_border=true&title_color=a855f7&text_color=c9d1d9&bg_color=00000000&langs_count=6" alt="Languages" />
+<img height="160" src="https://github-readme-stats-plus.vercel.app/api?username=riique&show_icons=true&count_private=true&hide_border=true&title_color=a855f7&icon_color=a855f7&text_color=c9d1d9&bg_color=00000000" alt="Stats" />
+<img height="160" src="https://github-readme-stats-plus.vercel.app/api/top-langs/?username=riique&layout=compact&hide_border=true&title_color=a855f7&text_color=c9d1d9&bg_color=00000000&langs_count=6" alt="Languages" />
 
 <br /><br />
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/riique/riique/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/riique/riique/output/github-snake.svg" />
-  <img alt="Snake" src="https://raw.githubusercontent.com/riique/riique/output/github-snake-dark.svg" />
+  <img alt="Snake" src="https://raw.githubusercontent.com/riique/riique/output/github-contribution-grid-snake.svg" />
 </picture>
 
 </div>
