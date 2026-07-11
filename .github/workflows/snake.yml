@@ -26,11 +26,14 @@ jobs:
       # Cortamos esse espaço para a animação ficar encaixada no grid.
       - name: Crop snake viewBox
         run: |
+          chmod -R u+w dist
           python3 << 'PY'
           from pathlib import Path
           import re
+          import os
 
           for path in Path("dist").glob("*.svg"):
+              os.chmod(path, 0o644)
               svg = path.read_text(encoding="utf-8")
               # Grid real: y de 2 a ~110, x de 0 a ~850. viewBox original: -16 -32 880 192
               svg = re.sub(
