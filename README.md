@@ -1,6 +1,6 @@
 <div align="center">
 
-# Henrique
+# Henrique L.
 
 **Vibe coding** · Brasil 🇧🇷
 
@@ -8,7 +8,7 @@ Código no ritmo da ideia.
 
 <br />
 
-[Instagram](https://www.instagram.com/riiquelenz/) ·
+[Instagram](https://www.instagram.com/henrique.lenz_/) ·
 [X](https://twitter.com/riiquestudies) ·
 [Spotify](https://open.spotify.com/user/fs0ibi8t3pn9vqc2zhh9zkkrl)
 
