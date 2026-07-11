@@ -4,7 +4,9 @@
 
 **Vibe coding** · Brasil 🇧🇷
 
-Código no ritmo da ideia.
+Se imagina, eu construo.
+
+*Token maxxing profissional.*
 
 <br />
 
