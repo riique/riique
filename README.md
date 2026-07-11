@@ -4,8 +4,7 @@
 
 **Vibe coding** · Brasil 🇧🇷
 
-Não sou dev no sentido clássico — eu construo com IA.  
-Ideia → conversa com o modelo → projeto no ar.
+Crio projetos com IA — apps, bots e ferramentas.
 
 <br />
 
@@ -17,17 +16,17 @@ Ideia → conversa com o modelo → projeto no ar.
 
 ### o que eu faço
 
-Ferramentas do ecossistema **Haumea** — apps, bots, mods e utilitários.
+Ecossistema **Haumea**.
 
 | projeto | o que é |
 | :-- | :-- |
 | [Haumea Voice](https://github.com/riique/Haumea-Voice) | app desktop de voz (Tauri + React) |
-| [Haumea VR](https://github.com/riique/HaumeaVR) | jogos flat em VR (OpenXR) |
-| [Haumea Clones](https://github.com/riique/HaumeaClones) | clone de canais Telegram |
-| [Haumea Studies](https://github.com/riique/Haumea-Studies) | estudos e produtividade |
-| [Haumea Cupons](https://github.com/riique/HaumeaCupons) | bot de cupons + dashboard |
-| [Haumea Bibliothek](https://github.com/riique/Haumea-Bibliothek-Bot) | bot Discord de biblioteca |
-| [Haumea MC](https://github.com/riique/HaumeaMC) | mods e packs Minecraft |
+| [Haumea VR](https://github.com/riique/HaumeaVR) | plataforma OpenXR para jogar games de PC em VR |
+| [Haumea Clones](https://github.com/riique/HaumeaClones) | clonagem de canais e grupos no Telegram |
+| [Haumea Studies](https://github.com/riique/Haumea-Studies) | app de estudos e produtividade |
+| [Haumea Cupons](https://github.com/riique/HaumeaCupons) | bot de cupons no Telegram + dashboard |
+| [Haumea Bibliothek](https://github.com/riique/Haumea-Bibliothek-Bot) | bot Discord para biblioteca e arquivos |
+| [Haumea MC](https://github.com/riique/HaumeaMC) | plugin KitPvP para Minecraft |
 
 <br />
 
