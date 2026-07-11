@@ -4,7 +4,7 @@
 
 **Vibe coding** · Brasil 🇧🇷
 
-Crio projetos com IA — apps, bots e ferramentas.
+Código no ritmo da ideia.
 
 <br />
 
