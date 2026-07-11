@@ -1,17 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="980" height="220" viewBox="0 0 980 220" role="img" aria-label="Token-maxxing pipeline">
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="240" viewBox="0 0 980 240" role="img" aria-label="Token-maxxing pipeline">
   <defs>
-    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-      <path d="M 0 0 L 10 5 L 0 10 z" fill="#8b949e"/>
-    </marker>
-    <marker id="arrowPurple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-      <path d="M 0 0 L 10 5 L 0 10 z" fill="#c4b5fd"/>
+    <!-- refX=0: a linha termina no meio da base do triângulo; a ponta fica além do fim da linha -->
+    <marker id="arrow" viewBox="0 0 10 10" refX="0" refY="5" markerWidth="8" markerHeight="8" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8b949e"/>
     </marker>
     <filter id="soft" x="-10%" y="-10%" width="120%" height="120%">
       <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000" flood-opacity="0.25"/>
     </filter>
   </defs>
-
-  <!-- background transparent for dark/light -->
 
   <!-- nodes -->
   <g filter="url(#soft)">
@@ -48,13 +44,26 @@
     <text x="900" y="146" text-anchor="middle" fill="#ffedd5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10">aqui..."</text>
   </g>
 
-  <!-- forward arrows -->
-  <line x1="150" y1="105" x2="198" y2="105" stroke="#8b949e" stroke-width="2" marker-end="url(#arrow)"/>
-  <line x1="370" y1="105" x2="418" y2="105" stroke="#8b949e" stroke-width="2" marker-end="url(#arrow)"/>
-  <line x1="580" y1="105" x2="628" y2="105" stroke="#8b949e" stroke-width="2" marker-end="url(#arrow)"/>
-  <line x1="790" y1="105" x2="838" y2="105" stroke="#8b949e" stroke-width="2" marker-end="url(#arrow)"/>
+  <!-- setas para a frente: linha termina na base da seta -->
+  <line x1="150" y1="105" x2="190" y2="105" stroke="#8b949e" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="370" y1="105" x2="410" y2="105" stroke="#8b949e" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="580" y1="105" x2="620" y2="105" stroke="#8b949e" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="790" y1="105" x2="830" y2="105" stroke="#8b949e" stroke-width="2" marker-end="url(#arrow)"/>
 
-  <!-- feedback loop: E back to B -->
-  <path d="M 900 155 C 900 195, 285 195, 285 155" fill="none" stroke="#c4b5fd" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrowPurple)"/>
-  <text x="590" y="188" text-anchor="middle" fill="#c4b5fd" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-style="italic">mais tokens</text>
+  <!-- loop de feedback: linha tracejada até o meio da base; triângulo desenhado à mão (ponta para cima) -->
+  <!-- base da seta em y=172; ponta em y=155 (borda do PROMPT) -->
+  <path
+    d="M 900 155
+       C 900 205, 285 205, 285 172"
+    fill="none"
+    stroke="#c4b5fd"
+    stroke-width="2"
+    stroke-dasharray="6 5"
+    stroke-linecap="round"
+  />
+  <!-- triângulo: ponta (285,155); base (277,172)–(293,172); centro da base = fim da linha -->
+  <polygon points="285,155 277,172 293,172" fill="#c4b5fd"/>
+
+  <!-- texto abaixo da linha, sem sobrepor o tracejado -->
+  <text x="590" y="228" text-anchor="middle" fill="#c4b5fd" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-style="italic">mais tokens</text>
 </svg>
