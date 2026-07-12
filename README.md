@@ -68,7 +68,7 @@ IA é minha principal ferramenta de implementação; eu fico com a ideia, a espe
 Também construo ferramentas menores quando uma inconveniência específica consegue me irritar o suficiente:
 
 * [AI Exporters](https://github.com/riique/AI_Exporters) — exporta conversas do Claude, Grok e ChatGPT para JSON ou Markdown.
-* [Haumea DriveDePobre Downloader](https://github.com/riique/Haumea-DriveDePobre-Downloader) — facilita o download de arquivos hospedados no DriveDePobre.
+* [HaumeaMC](https://github.com/riique/HaumeaMC) — projeto Minecraft do ecossistema Haumea.
 * [WhoDoesNotFollowsMe_X](https://github.com/riique/WhoDoesNotFollowsMe_X) — encontra quem não segue você de volta no X.
 
 ---
