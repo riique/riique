@@ -94,16 +94,14 @@ Coisas menores. Algumas até respeitaram o escopo original.
 
 ---
 
-## estatísticas
+## atividade no GitHub
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-plus.vercel.app/api?username=riique&amp;show_icons=true&amp;count_private=true&amp;hide_border=true&amp;disable_animations=true&amp;bg_color=00000000&amp;title_color=a855f7&amp;icon_color=a855f7&amp;text_color=c9d1d9">
-    <img height="165" src="https://github-readme-stats-plus.vercel.app/api?username=riique&amp;show_icons=true&amp;count_private=true&amp;hide_border=true&amp;disable_animations=true&amp;bg_color=00000000&amp;title_color=7e22ce&amp;icon_color=7e22ce&amp;text_color=24292f" alt="Estatísticas do perfil riique no GitHub" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-plus.vercel.app/api?username=riique&amp;show_icons=true&amp;count_private=true&amp;include_all_commits=true&amp;hide_rank=true&amp;hide_border=true&amp;disable_animations=true&amp;bg_color=00000000&amp;title_color=a855f7&amp;icon_color=a855f7&amp;text_color=c9d1d9">
+    <img width="495" src="https://github-readme-stats-plus.vercel.app/api?username=riique&amp;show_icons=true&amp;count_private=true&amp;include_all_commits=true&amp;hide_rank=true&amp;hide_border=true&amp;disable_animations=true&amp;bg_color=00000000&amp;title_color=7e22ce&amp;icon_color=7e22ce&amp;text_color=24292f" alt="Estatísticas do perfil riique no GitHub" />
   </picture>
 </p>
-
-## contribution snake
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/riique/riique/output/github-snake-dark.svg">

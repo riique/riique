@@ -44,9 +44,26 @@ jobs:
           VIEWBOX = re.compile(
               rf'\bviewBox=(["\'])(?P<value>{NUMBER}(?:[\s,]+{NUMBER}){{3}})\1'
           )
+          SNAKE_RECT = re.compile(
+              r'<rect\s+class=(["\'])s (?P<segment>s[0-3])\1[^>]*/>'
+          )
+          SNAKE_SIZES = {"s0": 12.0, "s1": 10.5, "s2": 9.0, "s3": 8.0}
 
           def warn(path: Path, message: str) -> None:
               print(f"::warning file={path.as_posix()}::{message}; original preserved")
+
+          def fit_snake_segment(match: re.Match[str]) -> str:
+              segment = match.group("segment")
+              size = SNAKE_SIZES[segment]
+              offset = 2.0 + (12.0 - size) / 2.0
+              radius = min(4.0, size / 3.0)
+              number = lambda value: f"{value:g}"
+              return (
+                  f'<rect class="s {segment}" '
+                  f'x="{number(offset)}" y="{number(offset)}" '
+                  f'width="{number(size)}" height="{number(size)}" '
+                  f'rx="{number(radius)}" ry="{number(radius)}"/>'
+              )
 
           for path in Path("publish").glob("*.svg"):
               svg = path.read_text(encoding="utf-8")
@@ -73,6 +90,16 @@ jobs:
               cropped_tag = re.sub(r'\bwidth=(["\'])[^"\']*\1', 'width="852"', cropped_tag, count=1)
               cropped_tag = re.sub(r'\bheight=(["\'])[^"\']*\1', 'height="116"', cropped_tag, count=1)
               cropped = svg[:root.start()] + cropped_tag + svg[root.end():]
+
+              snake_segments = list(SNAKE_RECT.finditer(cropped))
+              if len(snake_segments) == len(SNAKE_SIZES):
+                  cropped = SNAKE_RECT.sub(fit_snake_segment, cropped)
+              else:
+                  print(
+                      f"::warning file={path.as_posix()}::expected 4 snake segments, "
+                      f"found {len(snake_segments)}; segment sizing skipped"
+                  )
+
               path.write_text(cropped, encoding="utf-8")
               print(f"cropped {path.name}")
           PY
