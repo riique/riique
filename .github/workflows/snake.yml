@@ -8,13 +8,18 @@ on:
     branches:
       - main
 
+concurrency:
+  group: contribution-snake
+  cancel-in-progress: true
+
 jobs:
   generate:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-      - uses: Platane/snk@v3
+      - name: Generate contribution snake
+        uses: Platane/snk@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
@@ -23,26 +28,57 @@ jobs:
             dist/github-contribution-grid-snake.svg?palette=github-dark&color_snake=#a855f7
 
       # O snk deixa ~32px de padding acima do grid para a cobra "sair" dos blocos.
-      # Copiamos para um dir gravável e cortamos o viewBox.
+      # O crop só é aplicado ao formato conhecido; saídas inesperadas são preservadas.
       - name: Crop snake viewBox
         run: |
           mkdir -p publish
           cp -f dist/*.svg publish/
           python3 << 'PY'
           from pathlib import Path
+          from math import isclose
           import re
+
+          EXPECTED_VIEWBOX = (-16.0, -32.0, 880.0, 192.0)
+          CROPPED_VIEWBOX = "0 0 852 116"
+          NUMBER = r"[+-]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][+-]?\d+)?"
+          VIEWBOX = re.compile(
+              rf'\bviewBox=(["\'])(?P<value>{NUMBER}(?:[\s,]+{NUMBER}){{3}})\1'
+          )
+
+          def warn(path: Path, message: str) -> None:
+              print(f"::warning file={path.as_posix()}::{message}; original preserved")
 
           for path in Path("publish").glob("*.svg"):
               svg = path.read_text(encoding="utf-8")
-              # Grid real: y de 2 a ~110. viewBox original: -16 -32 880 192
-              svg = re.sub(r'viewBox="[^"]+"', 'viewBox="0 0 852 116"', svg, count=1)
-              svg = re.sub(r'\bwidth="[^"]+"', 'width="852"', svg, count=1)
-              svg = re.sub(r'\bheight="[^"]+"', 'height="116"', svg, count=1)
-              path.write_text(svg, encoding="utf-8")
+              root = re.search(r"<svg\b[^>]*>", svg, flags=re.IGNORECASE)
+              if not root:
+                  warn(path, "SVG root element not found")
+                  continue
+
+              root_tag = root.group(0)
+              match = VIEWBOX.search(root_tag)
+              if not match:
+                  warn(path, "compatible viewBox not found")
+                  continue
+
+              current = tuple(float(value) for value in re.findall(NUMBER, match.group("value")))
+              if len(current) != 4 or not all(
+                  isclose(actual, expected, abs_tol=0.01)
+                  for actual, expected in zip(current, EXPECTED_VIEWBOX)
+              ):
+                  warn(path, f"unexpected viewBox {match.group('value')!r}")
+                  continue
+
+              cropped_tag = VIEWBOX.sub(f'viewBox="{CROPPED_VIEWBOX}"', root_tag, count=1)
+              cropped_tag = re.sub(r'\bwidth=(["\'])[^"\']*\1', 'width="852"', cropped_tag, count=1)
+              cropped_tag = re.sub(r'\bheight=(["\'])[^"\']*\1', 'height="116"', cropped_tag, count=1)
+              cropped = svg[:root.start()] + cropped_tag + svg[root.end():]
+              path.write_text(cropped, encoding="utf-8")
               print(f"cropped {path.name}")
           PY
 
-      - uses: crazy-max/ghaction-github-pages@v4
+      - name: Publish contribution snake
+        uses: crazy-max/ghaction-github-pages@df5cc2bfa78282ded844b354faee141f06b41865 # v4.2.0
         with:
           target_branch: output
           build_dir: publish
