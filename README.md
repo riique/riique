@@ -69,7 +69,7 @@ Também construo ferramentas menores quando uma inconveniência específica cons
 
 * [AI Exporters](https://github.com/riique/AI_Exporters) — exporta conversas do Claude, Grok e ChatGPT para JSON ou Markdown.
 * [HaumeaMC](https://github.com/riique/HaumeaMC) — projeto Minecraft do ecossistema Haumea.
-* [WhoDoesNotFollowsMe_X](https://github.com/riique/WhoDoesNotFollowsMe_X) — encontra quem não segue você de volta no X.
+* [MutualCheck](https://github.com/riique/MutualCheck) — encontra quem não segue você de volta no X.
 
 ---
 
