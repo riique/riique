@@ -104,8 +104,8 @@ Coisas menores. Algumas até respeitaram o escopo original.
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/riique/riique/output/github-snake-dark.svg">
-  <img src="https://raw.githubusercontent.com/riique/riique/output/github-snake.svg" alt="Animação das contribuições de riique no GitHub em formato de cobra" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/riique/riique/output/github-snake-dark.svg?v=2">
+  <img src="https://raw.githubusercontent.com/riique/riique/output/github-snake.svg?v=2" alt="Animação das contribuições de riique no GitHub em formato de cobra" />
 </picture>
 
 ---
