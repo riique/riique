@@ -34,12 +34,14 @@ O escopo original normalmente não sobrevive ao primeiro prompt.
 
 Alguns começaram como “rapidinho”. **“Rapidinho” é uma estimativa de produto, não de tempo.**
 
-- **[Haumea](https://github.com/riique/Haumea)** — central multimodal para conversar com IA, estudar, comparar modelos e organizar conhecimento. **Stack:** Next.js, TypeScript e Firebase.
-- **[OpenCodex](https://github.com/riique/opencodex)** — fork de trabalho e contribuições upstream para rotear múltiplos providers no Codex e no Claude Code. **Stack:** TypeScript, Node.js e Bun.
-- **[Hermes Agent](https://github.com/riique/hermes-agent)** — fork de trabalho com roteamento nativo de áudio e voz para o agente da Nous Research. **Stack:** Python e TypeScript.
-- **[TelegramCloner](https://github.com/riique/TelegramCloner)** — clona e sincroniza canais, grupos e fóruns do Telegram com checkpoints para sobreviver às interrupções. **Stack:** Electron, React, Python e Telethon.
-- **HaumeaVoice** ([Tauri](https://github.com/riique/HaumeaVoice-tauri) · [Electron](https://github.com/riique/HaumeaVoice-electron)) — duas implementações de digitação por voz com atalho global, transcrição e refinamento. **Stack:** Tauri, Rust, Electron, React, TypeScript e Python.
-- **[HaumeaStudies](https://github.com/riique/HaumeaStudies)** — organiza missões, simulados, redações, erros e revisões para vestibulares. **Stack:** Next.js, TypeScript e Firebase.
+| Projeto | O que é | Tecnologias |
+| :--- | :--- | :--- |
+| [Haumea](https://github.com/riique/Haumea) | Central multimodal para conversar com IA, estudar, comparar modelos e organizar conhecimento | Next.js, TypeScript e Firebase |
+| [OpenCodex](https://github.com/riique/opencodex) | Fork de trabalho e contribuições upstream para rotear múltiplos providers no Codex e no Claude Code | TypeScript, Node.js e Bun |
+| [Hermes Agent](https://github.com/riique/hermes-agent) | Fork de trabalho com roteamento nativo de áudio e voz para o agente da Nous Research | Python e TypeScript |
+| [TelegramCloner](https://github.com/riique/TelegramCloner) | Clona e sincroniza canais, grupos e fóruns do Telegram com checkpoints para sobreviver às interrupções | Electron, React, Python e Telethon |
+| HaumeaVoice ([Tauri](https://github.com/riique/HaumeaVoice-tauri) · [Electron](https://github.com/riique/HaumeaVoice-electron)) | Duas implementações de digitação por voz com atalho global, transcrição e refinamento | Tauri, Rust, Electron, React, TypeScript e Python |
+| [HaumeaStudies](https://github.com/riique/HaumeaStudies) | Organiza missões, simulados, redações, erros e revisões para vestibulares | Next.js, TypeScript e Firebase |
 
 ## side quests & utilitários
 
