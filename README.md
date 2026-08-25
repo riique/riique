@@ -50,7 +50,7 @@ Smaller things. Some of them even respected the original scope.
 - [AI Exporters](https://github.com/riique/AI_Exporters) — exports Claude, Grok, and ChatGPT conversations to JSON or Markdown.
 - [MutualCheck](https://github.com/riique/MutualCheck) — compares Following and Followers on X without handing your account to another service.
 - [InstagramReelsSpeed](https://github.com/riique/InstagramReelsSpeed) — adds playback speed controls to Reels through a userscript.
-- [HaumeaMC](https://github.com/riique/HaumeaMC) — a Minecraft KitPvP and lobby plugin; the smaller mods live in [HaumeaDeath](https://github.com/riique/HaumeaDeath), [HaumeaPing](https://github.com/riique/HaumeaPing), and [HaumeaNoSpiders](https://github.com/riique/HaumeaNoSpiders).
+- [HaumeaMC](https://github.com/riique/HaumeaMC) — a Minecraft KitPvP and lobby plugin; the smaller projects live in [LastDeath](https://github.com/riique/LastDeath), [PingCheck](https://github.com/riique/PingCheck), and [NoAracnophobia](https://github.com/riique/NoAracnophobia).
 - [AprendizadoAntigo](https://github.com/riique/AprendizadoAntigo) — my code dig site, from when centering a div was still a boss fight.
 
 ---
