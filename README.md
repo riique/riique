@@ -2,12 +2,12 @@
 
 # Henrique V. L.
 
-### Eu imagino coisas e gasto uma quantidade irresponsável de tokens até elas existirem.
+### I imagine things and spend an irresponsible number of tokens until they exist.
 
-**vibe coding · product building · automação · IA**
+**vibe coding · product building · automation · AI**
 
 ![Vibe Coded](https://img.shields.io/badge/vibe-coded-a855f7?style=for-the-badge)
-![Token Maxxing](https://img.shields.io/badge/token%20maxxing-profissional-111827?style=for-the-badge)
+![Token Maxxing](https://img.shields.io/badge/token%20maxxing-professional-111827?style=for-the-badge)
 
 [Instagram](https://www.instagram.com/henrique.lenz_/) ·
 [X](https://x.com/riiquestudies) ·
@@ -17,101 +17,105 @@
 
 ---
 
-## sobre
+## about
 
-Eu construo ferramentas para problemas que me incomodam, ideias que parecem interessantes e projetos que provavelmente começaram com:
+I build tools for problems that annoy me, ideas that sound interesting, and projects that probably started with:
 
-> “Será que dá para fazer isso?”
+> “Could this be done?”
 
-Todos os projetos deste perfil são **vibe-coded**.
-IA é minha principal ferramenta de implementação; eu fico com a ideia, a especificação, a arquitetura, as decisões, os testes, as iterações e a parte de pedir:
+Every project on this profile is **vibe-coded**.
+AI is my main implementation tool; I handle the idea, the specification, the architecture, the decisions, the tests, the iterations, and the part where I ask:
 
-> “Agora arruma isso sem quebrar todo o resto.”
+> “Now fix this without breaking everything else.”
 
-O escopo original normalmente não sobrevive ao primeiro prompt.
+The original scope usually does not survive the first prompt.
 
-## projetos principais
+## main projects
 
-Alguns começaram como “rapidinho”. **“Rapidinho” é uma estimativa de produto, não de tempo.**
+Some started with “real quick.” **“Real quick” is a product estimate, not a time estimate.**
 
-| Projeto | O que é | Tecnologias |
+| Project | What it is | Technologies |
 | :--- | :--- | :--- |
-| [Haumea](https://github.com/riique/Haumea) | Central multimodal para conversar com IA, estudar, comparar modelos e organizar conhecimento | Next.js, TypeScript e Firebase |
-| [TelegramCloner](https://github.com/riique/TelegramCloner) | Clona e sincroniza canais, grupos e fóruns do Telegram com checkpoints para sobreviver às interrupções | Electron, React, Python e Telethon |
-| HaumeaVoice ([Tauri](https://github.com/riique/HaumeaVoice-tauri) · [Electron](https://github.com/riique/HaumeaVoice-electron)) | Duas implementações de digitação por voz com atalho global, transcrição e refinamento | Tauri, Rust, Electron, React, TypeScript e Python |
-| [HaumeaStudies](https://github.com/riique/HaumeaStudies) | Organiza missões, simulados, redações, erros e revisões para vestibulares | Next.js, TypeScript e Firebase |
-| [AddictionLog](https://github.com/riique/AddictionLog) | Registra cafeína, álcool e hábitos, estima a carga ativa e mostra padrões ao longo do tempo | React, TypeScript, Vite e Firebase |
-| [Haumea Physique](https://github.com/riique/Haumea-Physique) | Centraliza treinos, alimentação, medidas, exames e evolução física em um painel pessoal | Next.js, TypeScript e Firebase |
+| [Haumea](https://github.com/riique/Haumea) | A multimodal AI workspace for conversations, studying, model comparison, and organized knowledge | Next.js, TypeScript, and Firebase |
+| [TelegramCloner](https://github.com/riique/TelegramCloner) | Clones and synchronizes Telegram channels, groups, and forums with checkpoints that survive interruptions | Electron, React, Python, and Telethon |
+| HaumeaVoice ([Tauri](https://github.com/riique/HaumeaVoice-tauri) · [Electron](https://github.com/riique/HaumeaVoice-electron)) | Two voice-typing implementations with global shortcuts, transcription, and refinement | Tauri, Rust, Electron, React, TypeScript, and Python |
+| [HaumeaStudies](https://github.com/riique/HaumeaStudies) | Organizes study missions, mock exams, essays, mistakes, and review sessions | Next.js, TypeScript, and Firebase |
+| [AddictionLog](https://github.com/riique/AddictionLog) | Tracks caffeine, alcohol, and habits, estimates active load, and shows patterns over time | React, TypeScript, Vite, and Firebase |
+| [Haumea Physique](https://github.com/riique/Haumea-Physique) | Brings workouts, nutrition, measurements, exams, and physical progress into one personal dashboard | Next.js, TypeScript, and Firebase |
 
-## side quests & utilitários
+## side quests & utilities
 
-Coisas menores. Algumas até respeitaram o escopo original.
+Smaller things. Some of them even respected the original scope.
 
-- [AI Exporters](https://github.com/riique/AI_Exporters) — exporta conversas do Claude, Grok e ChatGPT para JSON ou Markdown.
-- [MutualCheck](https://github.com/riique/MutualCheck) — compara Following e Followers no X sem entregar sua conta a outro serviço.
-- [InstagramReelsSpeed](https://github.com/riique/InstagramReelsSpeed) — adiciona controle de velocidade aos Reels via userscript.
-- [HaumeaMC](https://github.com/riique/HaumeaMC) — KitPvP e lobby para Minecraft; os mods menores vivem em [HaumeaDeath](https://github.com/riique/HaumeaDeath), [HaumeaPing](https://github.com/riique/HaumeaPing) e [HaumeaNoSpiders](https://github.com/riique/HaumeaNoSpiders).
-- [AprendizadoAntigo](https://github.com/riique/AprendizadoAntigo) — meu sítio arqueológico de código, da época em que centralizar uma div ainda era boss fight.
+- [AI Exporters](https://github.com/riique/AI_Exporters) — exports Claude, Grok, and ChatGPT conversations to JSON or Markdown.
+- [MutualCheck](https://github.com/riique/MutualCheck) — compares Following and Followers on X without handing your account to another service.
+- [InstagramReelsSpeed](https://github.com/riique/InstagramReelsSpeed) — adds playback speed controls to Reels through a userscript.
+- [HaumeaMC](https://github.com/riique/HaumeaMC) — a Minecraft KitPvP and lobby plugin; the smaller mods live in [HaumeaDeath](https://github.com/riique/HaumeaDeath), [HaumeaPing](https://github.com/riique/HaumeaPing), and [HaumeaNoSpiders](https://github.com/riique/HaumeaNoSpiders).
+- [AprendizadoAntigo](https://github.com/riique/AprendizadoAntigo) — my code dig site, from when centering a div was still a boss fight.
 
 ---
 
-## stack utilizada nos experimentos
+## stack used in the experiments
 
 <p>
-  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,electron,tauri,rust,nodejs,bun,python,go,java,tailwind,firebase,vite,docker,git" alt="TypeScript, JavaScript, React, Next.js, Electron, Tauri, Rust, Node.js, Bun, Python, Go, Java, Tailwind CSS, Firebase, Vite, Docker e Git" />
+  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,electron,tauri,rust,nodejs,bun,python,go,java,tailwind,firebase,vite,docker,git" alt="TypeScript, JavaScript, React, Next.js, Electron, Tauri, Rust, Node.js, Bun, Python, Go, Java, Tailwind CSS, Firebase, Vite, Docker, and Git" />
 </p>
 
-> Não afirmo dominar todas elas. Afirmo ter convencido todas elas a colaborar pelo menos uma vez.
+> I do not claim to master all of them. I claim to have convinced each of them to cooperate at least once.
 
 ## token-maxxing pipeline
 
 <p align="center">
-  <strong>Meu objetivo é maximizar produto por token.</strong>
+  <strong>My goal is to maximize product per token.</strong>
   <br>
-  <sub>Até agora, tenho obtido principalmente tokens por produto.</sub>
+  <sub>So far, I have mostly achieved tokens per product.</sub>
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/riique/riique/main/assets/token-pipeline.svg?v=4" alt="Pipeline de Token Maxxing: ideia, prompt desnecessariamente detalhado, contexto em estado crítico, produto mais ou menos funcionando, aumento de escopo e mais tokens" width="1000" />
+  <img src="https://raw.githubusercontent.com/riique/riique/main/assets/token-pipeline.svg?v=5" alt="Token Maxxing pipeline: idea, unnecessarily detailed prompt, context in critical condition, more-or-less working product, scope increase, and more tokens" width="1000" />
 </p>
 
 <p align="center">
   <sub>
-    <i>O ciclo termina quando o produto fica pronto — ou quando o contexto acaba.</i>
+    <i>The cycle ends when the product is finished — or when the context runs out.</i>
   </sub>
 </p>
 
-## departamento de token maxxing
+## token maxxing department
 
-| Métrica                           | Resultado                    |
-| :-------------------------------- | :--------------------------- |
-| Prompts curtos enviados           | estatisticamente irrelevante |
-| Context windows preenchidas       | muitas                       |
-| “Só mais uma funcionalidade”      | nunca foi apenas uma         |
-| Modelos consultados               | sim                          |
-| Tokens economizados               | objetivo futuro              |
-| Projetos que começaram como teste | quase todos                  |
+| Metric | Result |
+| :--- | :--- |
+| Short prompts sent | statistically irrelevant |
+| Context windows filled | too many |
+| “Just one more feature” | has never been just one |
+| Models consulted | yes |
+| Tokens saved | future goal |
+| Projects that started as a test | almost all of them |
 
 ---
 
-## atividade no GitHub
+## GitHub activity
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-plus.vercel.app/api?username=riique&amp;show_icons=true&amp;count_private=true&amp;include_all_commits=true&amp;hide_rank=true&amp;hide_border=true&amp;disable_animations=true&amp;bg_color=00000000&amp;title_color=a855f7&amp;icon_color=a855f7&amp;text_color=c9d1d9">
-    <img width="495" src="https://github-readme-stats-plus.vercel.app/api?username=riique&amp;show_icons=true&amp;count_private=true&amp;include_all_commits=true&amp;hide_rank=true&amp;hide_border=true&amp;disable_animations=true&amp;bg_color=00000000&amp;title_color=7e22ce&amp;icon_color=7e22ce&amp;text_color=24292f" alt="Estatísticas do perfil riique no GitHub" />
+    <img height="165" src="https://github-readme-stats-plus.vercel.app/api?username=riique&amp;show_icons=true&amp;count_private=true&amp;include_all_commits=true&amp;hide_rank=true&amp;hide_border=true&amp;disable_animations=true&amp;bg_color=00000000&amp;title_color=7e22ce&amp;icon_color=7e22ce&amp;text_color=24292f" alt="GitHub statistics for riique" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-plus.vercel.app/api/top-langs/?username=riique&amp;layout=compact&amp;langs_count=8&amp;hide_border=true&amp;disable_animations=true&amp;bg_color=00000000&amp;title_color=a855f7&amp;text_color=c9d1d9">
+    <img height="165" src="https://github-readme-stats-plus.vercel.app/api/top-langs/?username=riique&amp;layout=compact&amp;langs_count=8&amp;hide_border=true&amp;disable_animations=true&amp;bg_color=00000000&amp;title_color=7e22ce&amp;text_color=24292f" alt="Most used languages across riique's GitHub repositories" />
   </picture>
 </p>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/riique/riique/output/github-snake-dark.svg?v=2">
-  <img src="https://raw.githubusercontent.com/riique/riique/output/github-snake.svg?v=2" alt="Animação das contribuições de riique no GitHub em formato de cobra" />
+  <img src="https://raw.githubusercontent.com/riique/riique/output/github-snake.svg?v=2" alt="Animated contribution graph for riique in the shape of a snake" />
 </picture>
 
 ---
 
 <div align="center">
 
-**Se imagina, eu construo.** <sub>Se funciona, foi engenharia. Se não funciona, o contexto acabou.</sub>
+**You imagine it, I build it.** <sub>If it works, it was engineering. If it doesn't, the context ran out.</sub>
 
 </div>

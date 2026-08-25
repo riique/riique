@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="token-pipeline-title token-pipeline-description">
   <title id="token-pipeline-title">Token Maxxing pipeline</title>
-  <desc id="token-pipeline-description">Uma ideia vira um prompt desnecessariamente detalhado, deixa o contexto em estado crítico, produz algo mais ou menos funcionando e aumenta o escopo antes de voltar para mais tokens.</desc>
+  <desc id="token-pipeline-description">An idea becomes an unnecessarily detailed prompt, pushes the context into critical condition, produces something that more or less works, and increases the scope before returning for more tokens.</desc>
   <defs>
     <style>
       .flow-line { stroke: #57606a; }
@@ -23,55 +23,55 @@
   <!-- ========== boxes ========== -->
   <g filter="url(#soft)">
     <rect x="24" y="72" width="128" height="68" rx="12" fill="#4c1d95" stroke="#c4b5fd" stroke-width="2"/>
-    <text x="88" y="113" text-anchor="middle" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="700">IDEIA</text>
+    <text x="88" y="113" text-anchor="middle" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="700">IDEA</text>
   </g>
 
   <g filter="url(#soft)">
     <rect x="210" y="56" width="168" height="100" rx="12" fill="#1e3a8a" stroke="#93c5fd" stroke-width="2"/>
     <text x="294" y="96" text-anchor="middle" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700">PROMPT</text>
-    <text x="294" y="118" text-anchor="middle" fill="#dbeafe" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">desnecessariamente</text>
-    <text x="294" y="134" text-anchor="middle" fill="#dbeafe" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">detalhado</text>
+    <text x="294" y="118" text-anchor="middle" fill="#dbeafe" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">unnecessarily</text>
+    <text x="294" y="134" text-anchor="middle" fill="#dbeafe" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">detailed</text>
   </g>
 
   <g filter="url(#soft)">
     <rect x="436" y="56" width="158" height="100" rx="12" fill="#7f1d1d" stroke="#fca5a5" stroke-width="2"/>
-    <text x="515" y="96" text-anchor="middle" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700">CONTEXTO</text>
-    <text x="515" y="118" text-anchor="middle" fill="#fee2e2" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">em estado</text>
-    <text x="515" y="134" text-anchor="middle" fill="#fee2e2" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">crítico</text>
+    <text x="515" y="96" text-anchor="middle" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700">CONTEXT</text>
+    <text x="515" y="118" text-anchor="middle" fill="#fee2e2" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">in critical</text>
+    <text x="515" y="134" text-anchor="middle" fill="#fee2e2" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">condition</text>
   </g>
 
   <g filter="url(#soft)">
     <rect x="652" y="56" width="158" height="100" rx="12" fill="#14532d" stroke="#86efac" stroke-width="2"/>
-    <text x="731" y="96" text-anchor="middle" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700">PRODUTO</text>
-    <text x="731" y="118" text-anchor="middle" fill="#dcfce7" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">mais ou menos</text>
-    <text x="731" y="134" text-anchor="middle" fill="#dcfce7" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">funcionando</text>
+    <text x="731" y="96" text-anchor="middle" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700">PRODUCT</text>
+    <text x="731" y="118" text-anchor="middle" fill="#dcfce7" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">more or less</text>
+    <text x="731" y="134" text-anchor="middle" fill="#dcfce7" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">working</text>
   </g>
 
   <g filter="url(#soft)">
     <rect x="868" y="56" width="112" height="100" rx="12" fill="#7c2d12" stroke="#fdba74" stroke-width="2"/>
-    <text x="924" y="90" text-anchor="middle" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="700">AUMENTO</text>
-    <text x="924" y="108" text-anchor="middle" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="700">DE ESCOPO</text>
-    <text x="924" y="132" text-anchor="middle" fill="#ffedd5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10">"já que estamos</text>
-    <text x="924" y="146" text-anchor="middle" fill="#ffedd5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10">aqui..."</text>
+    <text x="924" y="90" text-anchor="middle" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="700">SCOPE</text>
+    <text x="924" y="108" text-anchor="middle" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="700">INCREASE</text>
+    <text x="924" y="132" text-anchor="middle" fill="#ffedd5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10">"since we're</text>
+    <text x="924" y="146" text-anchor="middle" fill="#ffedd5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10">here..."</text>
   </g>
 
   <!-- ========== forward connectors (line ends at triangle BASE center) ========== -->
   <!-- box edges: 152 | 210 · 378 | 436 · 594 | 652 · 810 | 868 -->
   <!-- each: line to base center, triangle tip almost touches next box -->
 
-  <!-- IDEIA -> PROMPT -->
+  <!-- IDEA -> PROMPT -->
   <line class="flow-line" x1="152" y1="106" x2="190" y2="106" stroke-width="2.5" stroke-linecap="butt"/>
   <polygon class="flow-arrow" points="190,100 190,112 204,106"/>
 
-  <!-- PROMPT -> CONTEXTO -->
+  <!-- PROMPT -> CONTEXT -->
   <line class="flow-line" x1="378" y1="106" x2="416" y2="106" stroke-width="2.5" stroke-linecap="butt"/>
   <polygon class="flow-arrow" points="416,100 416,112 430,106"/>
 
-  <!-- CONTEXTO -> PRODUTO -->
+  <!-- CONTEXT -> PRODUCT -->
   <line class="flow-line" x1="594" y1="106" x2="632" y2="106" stroke-width="2.5" stroke-linecap="butt"/>
   <polygon class="flow-arrow" points="632,100 632,112 646,106"/>
 
-  <!-- PRODUTO -> ESCOPO -->
+  <!-- PRODUCT -> SCOPE -->
   <line class="flow-line" x1="810" y1="106" x2="848" y2="106" stroke-width="2.5" stroke-linecap="butt"/>
   <polygon class="flow-arrow" points="848,100 848,112 862,106"/>
 
@@ -107,5 +107,5 @@
     font-family="Segoe UI, Helvetica, Arial, sans-serif"
     font-size="13"
     font-style="italic"
-  >mais tokens</text>
+  >more tokens</text>
 </svg>
