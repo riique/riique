@@ -37,17 +37,16 @@ Alguns começaram como “rapidinho”. **“Rapidinho” é uma estimativa de p
 | Projeto | O que é | Tecnologias |
 | :--- | :--- | :--- |
 | [Haumea](https://github.com/riique/Haumea) | Central multimodal para conversar com IA, estudar, comparar modelos e organizar conhecimento | Next.js, TypeScript e Firebase |
-| [OpenCodex](https://github.com/riique/opencodex) | Fork de trabalho e contribuições upstream para rotear múltiplos providers no Codex e no Claude Code | TypeScript, Node.js e Bun |
-| [Hermes Agent](https://github.com/riique/hermes-agent) | Fork de trabalho com roteamento nativo de áudio e voz para o agente da Nous Research | Python e TypeScript |
 | [TelegramCloner](https://github.com/riique/TelegramCloner) | Clona e sincroniza canais, grupos e fóruns do Telegram com checkpoints para sobreviver às interrupções | Electron, React, Python e Telethon |
 | HaumeaVoice ([Tauri](https://github.com/riique/HaumeaVoice-tauri) · [Electron](https://github.com/riique/HaumeaVoice-electron)) | Duas implementações de digitação por voz com atalho global, transcrição e refinamento | Tauri, Rust, Electron, React, TypeScript e Python |
 | [HaumeaStudies](https://github.com/riique/HaumeaStudies) | Organiza missões, simulados, redações, erros e revisões para vestibulares | Next.js, TypeScript e Firebase |
+| [AddictionLog](https://github.com/riique/AddictionLog) | Registra cafeína, álcool e hábitos, estima a carga ativa e mostra padrões ao longo do tempo | React, TypeScript, Vite e Firebase |
+| [Haumea Physique](https://github.com/riique/Haumea-Physique) | Centraliza treinos, alimentação, medidas, exames e evolução física em um painel pessoal | Next.js, TypeScript e Firebase |
 
 ## side quests & utilitários
 
 Coisas menores. Algumas até respeitaram o escopo original.
 
-- [AddictionLog](https://github.com/riique/AddictionLog) — registra cafeína, álcool e hábitos com estimativas de metabolização.
 - [AI Exporters](https://github.com/riique/AI_Exporters) — exporta conversas do Claude, Grok e ChatGPT para JSON ou Markdown.
 - [MutualCheck](https://github.com/riique/MutualCheck) — compara Following e Followers no X sem entregar sua conta a outro serviço.
 - [InstagramReelsSpeed](https://github.com/riique/InstagramReelsSpeed) — adiciona controle de velocidade aos Reels via userscript.
