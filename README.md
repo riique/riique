@@ -52,10 +52,8 @@ IA é minha principal ferramenta de implementação; eu fico com a ideia, a espe
 
 | Projeto                                                      | O que é                                                                         | Tecnologias                          |
 | :----------------------------------------------------------- | :------------------------------------------------------------------------------ | :----------------------------------- |
-| [Haumea Voice](https://github.com/riique/Haumea-Voice)       | Aplicativo desktop para gravação, transcrição e análise de voz                  | Electron, React, TypeScript e Python |
-| [Haumea Studies](https://github.com/riique/Haumea-Studies)   | Plataforma de estudos, missões, simulados, redações e correções com IA          | Next.js, TypeScript e Firebase       |
-| [Haumea Clones](https://github.com/riique/HaumeaClones)      | Aplicativo para clonagem e sincronização de canais, grupos e fóruns do Telegram | Electron, React, Python e Telethon   |
-| [Haumea Cupons](https://github.com/riique/HaumeaCupons)      | Monitor de ofertas e cupons em grupos do Telegram com dashboard                 | Python, FastAPI, React e SQLite      |
+| [Haumea Voice](https://github.com/riique/HaumeaVoice-electron) | Aplicativo desktop para gravação, transcrição e análise de voz (Electron)       | Electron, React, TypeScript e Python |
+| [Haumea Studies](https://github.com/riique/HaumeaStudies)   | Plataforma de estudos, missões, simulados, redações e correções com IA          | Next.js, TypeScript e Firebase       |
 | [Haumea Physique](https://github.com/riique/Haumea-Physique) | Acompanhamento de treinos, dieta, exames e evolução física                      | Next.js e TypeScript                 |
 | [HaumeaDeath](https://github.com/riique/HaumeaDeath)         | Mod que registra a morte e permite visualizar ou restaurar o inventário         | Java e Fabric                        |
 | [HaumeaPing](https://github.com/riique/HaumeaPing)           | Comando de ping leve para servidores Minecraft Fabric                           | Java e Fabric                        |
@@ -63,13 +61,17 @@ IA é minha principal ferramenta de implementação; eu fico com a ideia, a espe
 
 ---
 
-## side quests
+## side quests & utilitários
 
-Também construo ferramentas menores quando uma inconveniência específica consegue me irritar o suficiente:
+Também construo ferramentas menores e projetos de utilidade focada:
 
 * [AI Exporters](https://github.com/riique/AI_Exporters) — exporta conversas do Claude, Grok e ChatGPT para JSON ou Markdown.
+* [Telegram Cloner](https://github.com/riique/TelegramCloner) — clonador e sincronizador de canais, grupos e fóruns do Telegram.
+* [MutualCheck](https://github.com/riique/MutualCheck) — encontra quem não segue você de volta no X (Twitter).
+* [AddictionLog](https://github.com/riique/AddictionLog) — rastreador de cafeína, álcool e hábitos com modelo metabólico.
+* [Hallow](https://github.com/riique/Hallow) — plataforma de escrita narrativa assistida por IA com contexto estruturado.
+* [AprendizadoAntigo](https://github.com/riique/AprendizadoAntigo) — coleção de projetos e exercícios iniciais arquivados por valor histórico.
 * [HaumeaMC](https://github.com/riique/HaumeaMC) — projeto Minecraft do ecossistema Haumea.
-* [MutualCheck](https://github.com/riique/MutualCheck) — encontra quem não segue você de volta no X.
 
 ---
 
