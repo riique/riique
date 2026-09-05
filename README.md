@@ -38,7 +38,7 @@ Some started with “real quick.” **“Real quick” is a product estimate, no
 | :--- | :--- | :--- |
 | [Haumea](https://github.com/riique/Haumea) | A multimodal AI workspace for conversations, studying, model comparison, and organized knowledge | Next.js, TypeScript, and Firebase |
 | [TelegramCloner](https://github.com/riique/TelegramCloner) | Clones and synchronizes Telegram channels, groups, and forums with checkpoints that survive interruptions | Electron, React, Python, and Telethon |
-| HaumeaVoice ([Tauri](https://github.com/riique/HaumeaVoice-tauri) · [Electron](https://github.com/riique/HaumeaVoice-electron)) | Two voice-typing implementations with global shortcuts, transcription, and refinement | Tauri, Rust, Electron, React, TypeScript, and Python |
+| [Sonora v2.0](https://github.com/riique/Sonora) | Voice typing for Windows with global shortcuts, transcription, refinement, and a simpler view of your speaking habits | Tauri, Rust, React, and TypeScript |
 | [HaumeaStudies](https://github.com/riique/HaumeaStudies) | Organizes study missions, mock exams, essays, mistakes, and review sessions | Next.js, TypeScript, and Firebase |
 | [AddictionLog](https://github.com/riique/AddictionLog) | Tracks caffeine, alcohol, and habits, estimates active load, and shows patterns over time | React, TypeScript, Vite, and Firebase |
 | [Haumea Physique](https://github.com/riique/Haumea-Physique) | Brings workouts, nutrition, measurements, exams, and physical progress into one personal dashboard | Next.js, TypeScript, and Firebase |
