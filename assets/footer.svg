@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-labelledby="t d">
+  <title id="t">You imagine it, I build it.</title>
+  <desc id="d">If it works, it was engineering. If it doesn't, the context ran out.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0c0717"/>
+      <stop offset="0.55" stop-color="#120a24"/>
+      <stop offset="1" stop-color="#0a0f1f"/>
+    </linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity="0.06"/>
+    </pattern>
+    <linearGradient id="txt" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c084fc"/><stop offset="0.5" stop-color="#ffffff"/><stop offset="1" stop-color="#60a5fa"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a855f7" stop-opacity="0.0"/><stop offset="0.5" stop-color="#a855f7" stop-opacity="0.35"/><stop offset="1" stop-color="#3b82f6" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="clip"><rect width="1200" height="150" rx="24"/></clipPath>
+    <style>
+      .big { font: 800 32px 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif; letter-spacing: -0.5px; }
+      .small { font: 400 15px 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #9ca3af; }
+      .w1 { animation: slide 9s linear infinite; }
+      .w2 { animation: slide 13s linear infinite reverse; }
+      @keyframes slide { to { transform: translateX(-600px); } }
+      @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+    </style>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="150" fill="url(#bg)"/>
+    <rect width="1200" height="150" fill="url(#dots)"/>
+    <path class="w1" d="M0 120 q150 -18 300 0 q150 18 300 0 q150 -18 300 0 q150 18 300 0 q150 -18 300 0 q150 18 300 0 V150 H0 Z" fill="url(#wave)"/>
+    <path class="w2" d="M0 130 q150 14 300 0 q150 -14 300 0 q150 14 300 0 q150 -14 300 0 q150 14 300 0 q150 -14 300 0 V150 H0 Z" fill="#a855f7" fill-opacity="0.12"/>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="149" rx="24" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
+  <text x="600.0" y="64" text-anchor="middle" class="big" fill="url(#txt)">You imagine it, I build it.</text>
+  <text x="600.0" y="96" text-anchor="middle" class="small">If it works, it was engineering. If it doesn't, the context ran out.</text>
+</svg>

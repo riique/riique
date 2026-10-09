@@ -1,111 +1,74 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="token-pipeline-title token-pipeline-description">
-  <title id="token-pipeline-title">Token Maxxing pipeline</title>
-  <desc id="token-pipeline-description">An idea becomes an unnecessarily detailed prompt, pushes the context into critical condition, produces something that more or less works, and increases the scope before returning for more tokens.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="280" viewBox="0 0 1000 280" role="img" aria-labelledby="t d">
+  <title id="t">Token Maxxing pipeline</title>
+  <desc id="d">An idea becomes an unnecessarily detailed prompt, pushes the context into critical condition, produces something that more or less works, and increases the scope before returning for more tokens.</desc>
   <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0c0717"/>
+      <stop offset="0.55" stop-color="#120a24"/>
+      <stop offset="1" stop-color="#0a0f1f"/>
+    </linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity="0.06"/>
+    </pattern>
+    <clipPath id="clip"><rect width="1000" height="280" rx="18"/></clipPath>
     <style>
-      .flow-line { stroke: #57606a; }
-      .flow-arrow { fill: #57606a; }
-      .loop-line { stroke: #8250df; }
-      .loop-arrow, .loop-label { fill: #8250df; }
-
-      @media (prefers-color-scheme: dark) {
-        .flow-line { stroke: #8b949e; }
-        .flow-arrow { fill: #8b949e; }
-        .loop-line { stroke: #c4b5fd; }
-        .loop-arrow, .loop-label { fill: #c4b5fd; }
-      }
+      .node { font: 800 16px 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #ffffff; letter-spacing: 1.5px; }
+      .sub { font: 400 13px 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #b4b4c6; }
+      .step { font: 700 11px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; letter-spacing: 2px; }
+      .label { font: italic 600 14px 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #c4b5fd; }
+      .flow { fill: none; stroke: #6b7280; stroke-width: 2; stroke-dasharray: 4 5; animation: dash 1s linear infinite; }
+      .loop { fill: none; stroke: #a855f7; stroke-width: 2.2; stroke-dasharray: 8 7; animation: dash 0.9s linear infinite reverse; }
+      .token { animation: ride 3.2s ease-in-out infinite; offset-path: path("M892 180 C892 244 304 244 304 188"); offset-rotate: 0deg; }
+      @keyframes dash { to { stroke-dashoffset: -18; } }
+      @keyframes ride { from { offset-distance: 0%; opacity: 0; } 10% { opacity: 1; } 90% { opacity: 1; } to { offset-distance: 100%; opacity: 0; } }
+      @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
     </style>
-    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.28"/>
-    </filter>
   </defs>
-
-  <!-- ========== boxes ========== -->
-  <g filter="url(#soft)">
-    <rect x="24" y="72" width="128" height="68" rx="12" fill="#4c1d95" stroke="#c4b5fd" stroke-width="2"/>
-    <text x="88" y="113" text-anchor="middle" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="700">IDEA</text>
+  <g clip-path="url(#clip)">
+    <rect width="1000" height="280" fill="url(#bg)"/>
+    <rect width="1000" height="280" fill="url(#dots)"/>
   </g>
-
-  <g filter="url(#soft)">
-    <rect x="210" y="56" width="168" height="100" rx="12" fill="#1e3a8a" stroke="#93c5fd" stroke-width="2"/>
-    <text x="294" y="96" text-anchor="middle" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700">PROMPT</text>
-    <text x="294" y="118" text-anchor="middle" fill="#dbeafe" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">unnecessarily</text>
-    <text x="294" y="134" text-anchor="middle" fill="#dbeafe" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">detailed</text>
+  <rect x="0.5" y="0.5" width="999" height="279" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.09"/>
+  <text x="500.0" y="44" text-anchor="middle" class="step" fill="#8b8ba3">TOKEN-MAXXING PIPELINE</text>
+  
+  <g transform="translate(29 70)">
+    <rect width="158" height="104" rx="16" fill="#a855f7" fill-opacity="0.1" stroke="#a855f7" stroke-opacity="0.55" stroke-width="1.5"/>
+    <rect x="18" y="0" width="122" height="2" fill="#a855f7"/>
+    <text x="79.0" y="20" text-anchor="middle" class="step" fill="#a855f7">01</text>
+    <text x="79.0" y="46" text-anchor="middle" class="node">IDEA</text>
+    <text x="79.0" y="68" text-anchor="middle" class="sub">just a thought</text>
   </g>
-
-  <g filter="url(#soft)">
-    <rect x="436" y="56" width="158" height="100" rx="12" fill="#7f1d1d" stroke="#fca5a5" stroke-width="2"/>
-    <text x="515" y="96" text-anchor="middle" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700">CONTEXT</text>
-    <text x="515" y="118" text-anchor="middle" fill="#fee2e2" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">in critical</text>
-    <text x="515" y="134" text-anchor="middle" fill="#fee2e2" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">condition</text>
+  <g transform="translate(225 70)">
+    <rect width="158" height="104" rx="16" fill="#3b82f6" fill-opacity="0.1" stroke="#3b82f6" stroke-opacity="0.55" stroke-width="1.5"/>
+    <rect x="18" y="0" width="122" height="2" fill="#3b82f6"/>
+    <text x="79.0" y="20" text-anchor="middle" class="step" fill="#3b82f6">02</text>
+    <text x="79.0" y="46" text-anchor="middle" class="node">PROMPT</text>
+    <text x="79.0" y="68" text-anchor="middle" class="sub">unnecessarily</text><text x="79.0" y="85" text-anchor="middle" class="sub">detailed</text>
   </g>
-
-  <g filter="url(#soft)">
-    <rect x="652" y="56" width="158" height="100" rx="12" fill="#14532d" stroke="#86efac" stroke-width="2"/>
-    <text x="731" y="96" text-anchor="middle" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700">PRODUCT</text>
-    <text x="731" y="118" text-anchor="middle" fill="#dcfce7" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">more or less</text>
-    <text x="731" y="134" text-anchor="middle" fill="#dcfce7" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">working</text>
+  <g transform="translate(421 70)">
+    <rect width="158" height="104" rx="16" fill="#ef4444" fill-opacity="0.1" stroke="#ef4444" stroke-opacity="0.55" stroke-width="1.5"/>
+    <rect x="18" y="0" width="122" height="2" fill="#ef4444"/>
+    <text x="79.0" y="20" text-anchor="middle" class="step" fill="#ef4444">03</text>
+    <text x="79.0" y="46" text-anchor="middle" class="node">CONTEXT</text>
+    <text x="79.0" y="68" text-anchor="middle" class="sub">in critical</text><text x="79.0" y="85" text-anchor="middle" class="sub">condition</text>
   </g>
-
-  <g filter="url(#soft)">
-    <rect x="868" y="56" width="112" height="100" rx="12" fill="#7c2d12" stroke="#fdba74" stroke-width="2"/>
-    <text x="924" y="90" text-anchor="middle" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="700">SCOPE</text>
-    <text x="924" y="108" text-anchor="middle" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="700">INCREASE</text>
-    <text x="924" y="132" text-anchor="middle" fill="#ffedd5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10">"since we're</text>
-    <text x="924" y="146" text-anchor="middle" fill="#ffedd5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10">here..."</text>
+  <g transform="translate(617 70)">
+    <rect width="158" height="104" rx="16" fill="#22c55e" fill-opacity="0.1" stroke="#22c55e" stroke-opacity="0.55" stroke-width="1.5"/>
+    <rect x="18" y="0" width="122" height="2" fill="#22c55e"/>
+    <text x="79.0" y="20" text-anchor="middle" class="step" fill="#22c55e">04</text>
+    <text x="79.0" y="46" text-anchor="middle" class="node">PRODUCT</text>
+    <text x="79.0" y="68" text-anchor="middle" class="sub">more or less</text><text x="79.0" y="85" text-anchor="middle" class="sub">working</text>
   </g>
-
-  <!-- ========== forward connectors (line ends at triangle BASE center) ========== -->
-  <!-- box edges: 152 | 210 · 378 | 436 · 594 | 652 · 810 | 868 -->
-  <!-- each: line to base center, triangle tip almost touches next box -->
-
-  <!-- IDEA -> PROMPT -->
-  <line class="flow-line" x1="152" y1="106" x2="190" y2="106" stroke-width="2.5" stroke-linecap="butt"/>
-  <polygon class="flow-arrow" points="190,100 190,112 204,106"/>
-
-  <!-- PROMPT -> CONTEXT -->
-  <line class="flow-line" x1="378" y1="106" x2="416" y2="106" stroke-width="2.5" stroke-linecap="butt"/>
-  <polygon class="flow-arrow" points="416,100 416,112 430,106"/>
-
-  <!-- CONTEXT -> PRODUCT -->
-  <line class="flow-line" x1="594" y1="106" x2="632" y2="106" stroke-width="2.5" stroke-linecap="butt"/>
-  <polygon class="flow-arrow" points="632,100 632,112 646,106"/>
-
-  <!-- PRODUCT -> SCOPE -->
-  <line class="flow-line" x1="810" y1="106" x2="848" y2="106" stroke-width="2.5" stroke-linecap="butt"/>
-  <polygon class="flow-arrow" points="848,100 848,112 862,106"/>
-
-  <!-- ========== feedback loop ========== -->
-  <!--
-    Path ends EXACTLY at the midpoint of the triangle base.
-    Triangle points UP into PROMPT (bottom center x=294).
-    Base is horizontal; tip is above base.
-    Line does NOT pass through the triangle body.
-  -->
-  <!-- tip of arrow (below PROMPT box bottom y=156) -->
-  <!-- base y = 178, tip y = 160, base half-width = 9 -->
-  <path
-    class="loop-line"
-    d="M 924 156
-       L 924 178
-       C 924 218, 294 218, 294 178"
-    fill="none"
-    stroke-width="2.5"
-    stroke-dasharray="7 6"
-    stroke-linecap="butt"
-    stroke-linejoin="round"
-  />
-  <!-- base center = (294, 178) = path end; tip = (294, 160) -->
-  <polygon class="loop-arrow" points="294,160 285,178 303,178"/>
-
-  <!-- label BELOW the dashed arc (arc bottom ~ y=218) -->
-  <text
-    class="loop-label"
-    x="609"
-    y="248"
-    text-anchor="middle"
-    font-family="Segoe UI, Helvetica, Arial, sans-serif"
-    font-size="13"
-    font-style="italic"
-  >more tokens</text>
+  <g transform="translate(813 70)">
+    <rect width="158" height="104" rx="16" fill="#f97316" fill-opacity="0.1" stroke="#f97316" stroke-opacity="0.55" stroke-width="1.5"/>
+    <rect x="18" y="0" width="122" height="2" fill="#f97316"/>
+    <text x="79.0" y="20" text-anchor="middle" class="step" fill="#f97316">05</text>
+    <text x="79.0" y="46" text-anchor="middle" class="node">SCOPE ++</text>
+    <text x="79.0" y="68" text-anchor="middle" class="sub">“since we’re</text><text x="79.0" y="85" text-anchor="middle" class="sub">here…”</text>
+  </g>
+  <path class="flow" d="M191 122.0 h24" /><path d="M215 117.0 l7 5 l-7 5 z" fill="#6b7280"/><path class="flow" d="M387 122.0 h24" /><path d="M411 117.0 l7 5 l-7 5 z" fill="#6b7280"/><path class="flow" d="M583 122.0 h24" /><path d="M607 117.0 l7 5 l-7 5 z" fill="#6b7280"/><path class="flow" d="M779 122.0 h24" /><path d="M803 117.0 l7 5 l-7 5 z" fill="#6b7280"/>
+  <path class="loop" d="M892 180 C892 244 304 244 304 188"/>
+  <path d="M297 192 L304 180 L311 192 Z" fill="#a855f7"/>
+  <circle class="token" r="5" fill="#e9d5ff"/>
+  <text x="598" y="254" text-anchor="middle" class="label">+ more tokens</text>
 </svg>
