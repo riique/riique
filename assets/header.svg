@@ -1,97 +1,61 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="t d">
   <title id="t">Henrique V. L.</title>
-  <desc id="d">I imagine things and spend an irresponsible number of tokens until they exist. Vibe coding, product building, automation, and AI.</desc>
+  <desc id="d">I design and ship software products end to end, using AI as my primary implementation tool. AI-assisted development, product engineering, and automation.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0c0717"/>
-      <stop offset="0.55" stop-color="#120a24"/>
-      <stop offset="1" stop-color="#0a0f1f"/>
-    </linearGradient>
-    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity="0.06"/>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0 H0 V40" fill="none" stroke="#ffffff" stroke-opacity="0.045"/>
     </pattern>
-    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#ffffff"/>
-      <stop offset="0.6" stop-color="#e9d5ff"/>
-      <stop offset="1" stop-color="#c084fc"/>
-    </linearGradient>
-    <radialGradient id="orbA"><stop offset="0" stop-color="#a855f7" stop-opacity="0.55"/><stop offset="1" stop-color="#a855f7" stop-opacity="0"/></radialGradient>
-    <radialGradient id="orbB"><stop offset="0" stop-color="#3b82f6" stop-opacity="0.35"/><stop offset="1" stop-color="#3b82f6" stop-opacity="0"/></radialGradient>
-    <radialGradient id="orbC"><stop offset="0" stop-color="#ec4899" stop-opacity="0.28"/><stop offset="1" stop-color="#ec4899" stop-opacity="0"/></radialGradient>
-    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#22c55e"/>
-      <stop offset="0.55" stop-color="#eab308"/>
-      <stop offset="1" stop-color="#ef4444"/>
-    </linearGradient>
-    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#a855f7" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#a855f7"/>
-      <stop offset="1" stop-color="#3b82f6" stop-opacity="0"/>
-    </linearGradient>
-    <clipPath id="clip"><rect width="1200" height="360" rx="24"/></clipPath>
-    <clipPath id="barclip"><rect x="0" y="0" width="276" height="14" rx="7"/></clipPath>
+    <radialGradient id="fade" cx="0.5" cy="0.35" r="0.75">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="gridmask"><rect width="100%" height="100%" fill="url(#fade)"/></mask>
+    <radialGradient id="sheen" cx="0.15" cy="0" r="0.9">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.07"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="clip"><rect width="1200" height="380" rx="24"/></clipPath>
     <style>
-      .chip { font: 600 14px 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #e9d5ff; }
-      .kicker { font: 600 14px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; fill: #a78bfa; letter-spacing: 3px; }
-      .name { font: 800 66px 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif; letter-spacing: -1.5px; }
-      .tag { font: 400 23px 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #c4c4d4; }
-      .tag b { font-weight: 700; fill: #ffffff; }
-      .mono { font: 500 13px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; fill: #9ca3af; }
-      .mono-hi { font: 700 13px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; fill: #e5e7eb; }
-      .crit { font: 800 12px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; fill: #f87171; letter-spacing: 2px; }
-      .a { animation: driftA 14s ease-in-out infinite alternate; }
-      .b { animation: driftB 18s ease-in-out infinite alternate; }
-      .c { animation: driftC 16s ease-in-out infinite alternate; }
-      .fill { animation: fill 6s cubic-bezier(.6,.05,.4,1) infinite; transform-origin: 0 0; }
-      .blink { animation: blink 1s steps(1) infinite; }
-      .warn { animation: warn 6s steps(1) infinite; }
-      .pct1 { animation: p1 6s steps(1) infinite; }
-      .pct2 { animation: p2 6s steps(1) infinite; }
-      .pct3 { animation: p3 6s steps(1) infinite; }
-      @keyframes driftA { to { transform: translate(120px, 40px); } }
-      @keyframes driftB { to { transform: translate(-140px, -30px); } }
-      @keyframes driftC { to { transform: translate(60px, -50px); } }
-      @keyframes fill { 0% { transform: scaleX(0.04); } 70%, 100% { transform: scaleX(1); } }
+      .kicker { font: 500 14px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; fill: #8a8a8a; letter-spacing: 1px; }
+      .name { font: 700 68px 'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #ffffff; letter-spacing: -2.5px; }
+      .lead { font: 400 23px 'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #bdbdbd; letter-spacing: -0.2px; }
+      .area { font: 600 13px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; fill: #e5e5e5; letter-spacing: 1.6px; }
+      .status { font: 500 12px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; fill: #8a8a8a; letter-spacing: 1px; }
+      .o1 { animation: spin 9s linear infinite; }
+      .o2 { animation: spin 16s linear infinite reverse; }
+      .o3 { animation: spin 28s linear infinite; }
+      .pulse { animation: pulse 2.4s ease-in-out infinite; }
+      .caret { animation: blink 1.1s steps(1) infinite; }
+      @keyframes spin { to { transform: rotate(360deg); } }
+      @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.25; } }
       @keyframes blink { 50% { opacity: 0; } }
-      @keyframes warn { 0% { opacity: 0; } 70% { opacity: 1; } 78% { opacity: 0; } 86% { opacity: 1; } 94% { opacity: 0; } }
-      @keyframes p1 { 0% { opacity: 1; } 25% { opacity: 0; } }
-      @keyframes p2 { 0% { opacity: 0; } 25% { opacity: 1; } 55% { opacity: 0; } }
-      @keyframes p3 { 0% { opacity: 0; } 55% { opacity: 1; } }
       @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
     </style>
   </defs>
-
   <g clip-path="url(#clip)">
-    <rect width="1200" height="360" fill="url(#bg)"/>
-    <rect width="1200" height="360" fill="url(#dots)"/>
-    <circle class="a" cx="200" cy="40" r="300" fill="url(#orbA)"/>
-    <circle class="b" cx="1050" cy="330" r="320" fill="url(#orbB)"/>
-    <circle class="c" cx="760" cy="60" r="220" fill="url(#orbC)"/>
-    <rect y="357" width="1200" height="3" fill="url(#edge)"/>
+    <rect width="1200" height="380" fill="#0a0a0a"/>
+    <rect width="1200" height="380" fill="url(#grid)" mask="url(#gridmask)"/>
+    <rect width="1200" height="380" fill="url(#sheen)"/>
   </g>
-  <rect x="0.5" y="0.5" width="1199" height="359" rx="24" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
+  <rect x="0.5" y="0.5" width="1199" height="379" rx="24" fill="none" stroke="#262626"/>
 
-  <text x="64" y="84" class="kicker">HI, I'M</text>
-  <text x="64" y="156" class="name" fill="url(#name)">Henrique V. L.</text>
-  <text x="64" y="204" class="tag">I imagine things and spend an <tspan font-weight="700" fill="#ffffff">irresponsible</tspan></text>
-  <text x="64" y="236" class="tag">number of tokens until they exist.</text>
-  <g transform="translate(64 268)"><rect width="120" height="34" rx="17" fill="#a855f7" fill-opacity="0.12" stroke="#a855f7" stroke-opacity="0.45"/><text x="60" y="22" text-anchor="middle" class="chip">vibe coding</text></g><g transform="translate(194 268)"><rect width="159" height="34" rx="17" fill="#a855f7" fill-opacity="0.12" stroke="#a855f7" stroke-opacity="0.45"/><text x="80" y="22" text-anchor="middle" class="chip">product building</text></g><g transform="translate(364 268)"><rect width="112" height="34" rx="17" fill="#a855f7" fill-opacity="0.12" stroke="#a855f7" stroke-opacity="0.45"/><text x="56" y="22" text-anchor="middle" class="chip">automation</text></g><g transform="translate(486 268)"><rect width="50" height="34" rx="17" fill="#a855f7" fill-opacity="0.12" stroke="#a855f7" stroke-opacity="0.45"/><text x="25" y="22" text-anchor="middle" class="chip">AI</text></g>
+  <text x="72" y="96" class="kicker">~/riique<tspan fill="#ffffff"> $ whoami</tspan></text>
+  <rect class="caret" x="244" y="83" width="8" height="16" fill="#ffffff"/>
+  <text x="72" y="172" class="name">Henrique V. L.</text>
+  <text x="72" y="220" class="lead">I design and ship software products end to end,</text>
+  <text x="72" y="252" class="lead">using AI as my primary implementation tool.</text>
+  <text x="72" y="304" class="area">AI-ASSISTED DEVELOPMENT</text><rect x="315" y="291" width="1" height="16" fill="#3a3a3a"/><text x="337" y="304" class="area">PRODUCT ENGINEERING</text><rect x="541" y="291" width="1" height="16" fill="#3a3a3a"/><text x="563" y="304" class="area">AUTOMATION</text>
+  <circle class="pulse" cx="78" cy="340" r="4" fill="#ffffff"/>
+  <text x="92" y="344" class="status">CURRENTLY BUILDING · HAUMEA ECOSYSTEM</text>
 
-  <!-- context window panel -->
-  <g transform="translate(830 96)">
-    <rect width="316" height="176" rx="16" fill="#0b0b14" fill-opacity="0.7" stroke="#ffffff" stroke-opacity="0.1"/>
-    <circle cx="22" cy="22" r="5" fill="#ff5f57"/><circle cx="40" cy="22" r="5" fill="#febc2e"/><circle cx="58" cy="22" r="5" fill="#28c840"/>
-    <text x="294" y="26" text-anchor="end" class="mono">session.log</text>
-    <text x="20" y="64" class="mono">$ <tspan class="mono-hi">vibe-code --scope=unlimited</tspan></text>
-    <text x="20" y="98" class="mono">context window</text>
-    <g class="pct1"><text x="296" y="98" text-anchor="end" class="mono-hi">12%</text></g>
-    <g class="pct2"><text x="296" y="98" text-anchor="end" class="mono-hi">61%</text></g>
-    <g class="pct3"><text x="296" y="98" text-anchor="end" class="mono-hi" fill="#f87171" style="fill:#f87171">99%</text></g>
-    <g transform="translate(20 110)">
-      <rect width="276" height="14" rx="7" fill="#ffffff" fill-opacity="0.07"/>
-      <g clip-path="url(#barclip)"><rect class="fill" width="276" height="14" fill="url(#bar)"/></g>
-    </g>
-    <g class="warn"><text x="20" y="152" class="crit">&#9888; CRITICAL CONDITION</text></g>
-    <rect class="blink" x="282" y="141" width="9" height="15" fill="#a855f7"/>
+  <g transform="translate(960 190)">
+    <circle r="150" fill="none" stroke="#ffffff" stroke-opacity="0.06"/>
+    <circle r="112" fill="none" stroke="#ffffff" stroke-opacity="0.10" stroke-dasharray="2 6"/>
+    <circle r="74" fill="none" stroke="#ffffff" stroke-opacity="0.14"/>
+    <ellipse rx="30" ry="19" fill="#141414" stroke="#ffffff" stroke-opacity="0.85" stroke-width="1.5" transform="rotate(-18)"/>
+    <ellipse rx="52" ry="12" fill="none" stroke="#ffffff" stroke-opacity="0.35" stroke-width="1.2" transform="rotate(-18)"/>
+    <g class="o1"><circle cx="74" cy="0" r="4" fill="#ffffff"/></g>
+    <g class="o2"><circle cx="0" cy="-112" r="3" fill="#d4d4d4"/></g>
+    <g class="o3"><circle cx="-150" cy="0" r="2.5" fill="#8a8a8a"/></g>
+    <line x1="-180" y1="0" x2="180" y2="0" stroke="#ffffff" stroke-opacity="0.05"/>
+    <line x1="0" y1="-180" x2="0" y2="180" stroke="#ffffff" stroke-opacity="0.05"/>
   </g>
 </svg>

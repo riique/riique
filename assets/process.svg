@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270" role="img" aria-labelledby="t d">
+  <title id="t">How I work</title>
+  <desc id="d">01 Problem: start from a real need, not a feature list. 02 Specification: define scope, architecture, and acceptance criteria. 03 Build: implement with AI and review every decision. 04 Iterate: test, measure, refine, and ship.</desc>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0 H0 V40" fill="none" stroke="#ffffff" stroke-opacity="0.045"/>
+    </pattern>
+    <radialGradient id="fade" cx="0.5" cy="0.35" r="0.75">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="gridmask"><rect width="100%" height="100%" fill="url(#fade)"/></mask>
+    <radialGradient id="sheen" cx="0.15" cy="0" r="0.9">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.07"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="clip"><rect width="1200" height="270" rx="20"/></clipPath>
+    <style>
+      .label { font: 600 12px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; fill: #8a8a8a; letter-spacing: 2px; }
+      .num { font: 500 12px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; fill: #8a8a8a; letter-spacing: 1.5px; }
+      .step { font: 700 21px 'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #ffffff; letter-spacing: -0.4px; }
+      .sub { font: 400 15px 'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #a3a3a3; }
+      .run { animation: run 3.6s cubic-bezier(.65,0,.35,1) infinite; }
+      .dot { animation: dot 3.6s ease-in-out infinite; opacity: 0.2; }
+      @keyframes run { from { transform: translateX(0); opacity: 0; } 8% { opacity: 1; } 92% { opacity: 1; } to { transform: translateX(840px); opacity: 0; } }
+      @keyframes dot { 0%, 100% { opacity: 0.2; } 20% { opacity: 1; } 40% { opacity: 0.2; } }
+      @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+    </style>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="270" fill="#0a0a0a"/>
+    <rect width="1200" height="270" fill="url(#grid)" mask="url(#gridmask)"/>
+    <rect width="1200" height="270" fill="url(#sheen)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="269" rx="20" fill="none" stroke="#262626"/>
+
+  <text x="48" y="44" class="label">HOW I WORK</text>
+  <rect x="54" y="104" width="828" height="1" fill="#333"/>
+  <rect class="run" x="48" y="103.5" width="60" height="2" fill="#ffffff"/>
+  
+  <circle cx="54" cy="104" r="6" fill="#0a0a0a" stroke="#ffffff" stroke-width="1.5"/>
+  <circle class="dot" style="animation-delay:0.0s" cx="54" cy="104" r="2.5" fill="#ffffff"/>
+  <text x="48" y="78" class="num">01</text>
+  <text x="48" y="152" class="step">Problem</text>
+  <text x="48" y="186" class="sub">Start from a real need,</text><text x="48" y="208" class="sub">not a feature list.</text>
+  <circle cx="330" cy="104" r="6" fill="#0a0a0a" stroke="#ffffff" stroke-width="1.5"/>
+  <circle class="dot" style="animation-delay:0.9s" cx="330" cy="104" r="2.5" fill="#ffffff"/>
+  <text x="324" y="78" class="num">02</text>
+  <text x="324" y="152" class="step">Specification</text>
+  <text x="324" y="186" class="sub">Define scope, architecture,</text><text x="324" y="208" class="sub">and acceptance criteria.</text>
+  <circle cx="606" cy="104" r="6" fill="#0a0a0a" stroke="#ffffff" stroke-width="1.5"/>
+  <circle class="dot" style="animation-delay:1.8s" cx="606" cy="104" r="2.5" fill="#ffffff"/>
+  <text x="600" y="78" class="num">03</text>
+  <text x="600" y="152" class="step">Build</text>
+  <text x="600" y="186" class="sub">Implement with AI;</text><text x="600" y="208" class="sub">review every decision.</text>
+  <circle cx="882" cy="104" r="6" fill="#0a0a0a" stroke="#ffffff" stroke-width="1.5"/>
+  <circle class="dot" style="animation-delay:2.7s" cx="882" cy="104" r="2.5" fill="#ffffff"/>
+  <text x="876" y="78" class="num">04</text>
+  <text x="876" y="152" class="step">Iterate</text>
+  <text x="876" y="186" class="sub">Test, measure, refine,</text><text x="876" y="208" class="sub">and ship.</text>
+</svg>

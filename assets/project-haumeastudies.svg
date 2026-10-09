@@ -1,48 +1,49 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="520" height="210" viewBox="0 0 520 210" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="232" viewBox="0 0 520 232" role="img" aria-labelledby="t d">
   <title id="t">HaumeaStudies</title>
-  <desc id="d">Organizes study missions, mock exams, essays, mistakes, and review sessions. Built with Next.js, TypeScript, Firebase.</desc>
+  <desc id="d">Study planning platform for missions, mock exams, essays, error tracking, and review sessions. Built with Next.js, TypeScript, Firebase.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0c0717"/>
-      <stop offset="0.55" stop-color="#120a24"/>
-      <stop offset="1" stop-color="#0a0f1f"/>
-    </linearGradient>
-    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity="0.06"/>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0 H0 V40" fill="none" stroke="#ffffff" stroke-opacity="0.045"/>
     </pattern>
-    <radialGradient id="glow" cx="1" cy="0" r="1"><stop offset="0" stop-color="#fbbf24" stop-opacity="0.32"/><stop offset="0.6" stop-color="#fbbf24" stop-opacity="0"/></radialGradient>
-    <linearGradient id="top" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fbbf24"/><stop offset="1" stop-color="#fbbf24" stop-opacity="0"/></linearGradient>
-    <clipPath id="clip"><rect width="520" height="210" rx="18"/></clipPath>
+    <radialGradient id="fade" cx="0.5" cy="0.35" r="0.75">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="gridmask"><rect width="100%" height="100%" fill="url(#fade)"/></mask>
+    <radialGradient id="sheen" cx="0.15" cy="0" r="0.9">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.07"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="clip"><rect width="520" height="232" rx="18"/></clipPath>
     <style>
-      .title { font: 750 24px 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 800; fill: #ffffff; letter-spacing: -0.3px; }
-      .desc { font: 400 15px 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #b4b4c6; }
-      .chip { font: 600 12.5px 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #e5e7eb; }
-      .link { font: 600 12px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; fill: #fbbf24; letter-spacing: 1px; }
-      .glow { animation: pulse 5s ease-in-out infinite alternate; }
-      .eq { animation: eq 1.1s ease-in-out infinite alternate; transform-box: fill-box; transform-origin: center; }
-      .steam { animation: steam 2.4s ease-in-out infinite; }
-      .spin { animation: spin 14s linear infinite; }
-      @keyframes pulse { from { opacity: 0.6; } to { opacity: 1; } }
+      .idx { font: 500 12px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; fill: #8a8a8a; letter-spacing: 1.5px; }
+      .tag { font: 600 11px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; fill: #d4d4d4; letter-spacing: 1.4px; }
+      .title { font: 700 25px 'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #ffffff; letter-spacing: -0.6px; }
+      .desc { font: 400 15px 'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #a3a3a3; }
+      .stack { font: 500 12px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; fill: #d4d4d4; letter-spacing: 0.6px; }
+      .arrow { font: 400 20px 'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #ffffff; }
+      .eq { animation: eq 1s ease-in-out infinite alternate; transform-box: fill-box; transform-origin: center; }
       @keyframes eq { from { transform: scaleY(0.3); } to { transform: scaleY(1); } }
-      @keyframes steam { 0%, 100% { opacity: 0.2; transform: translateY(2px); } 50% { opacity: 1; transform: translateY(-1px); } }
-      @keyframes spin { to { transform: rotate(360deg); } }
       @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
     </style>
   </defs>
   <g clip-path="url(#clip)">
-    <rect width="520" height="210" fill="url(#bg)"/>
-    <rect width="520" height="210" fill="url(#dots)"/>
-    <rect class="glow" width="520" height="210" fill="url(#glow)"/>
-    <rect width="520" height="3" fill="url(#top)"/>
+    <rect width="520" height="232" fill="#0a0a0a"/>
+    <rect width="520" height="232" fill="url(#grid)" mask="url(#gridmask)"/>
+    <rect width="520" height="232" fill="url(#sheen)"/>
   </g>
-  <rect x="0.5" y="0.5" width="519" height="209" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.09"/>
+  <rect x="0.5" y="0.5" width="519" height="231" rx="18" fill="none" stroke="#262626"/>
 
-  <g transform="translate(28 26)">
-    <rect width="48" height="48" rx="13" fill="#fbbf24" fill-opacity="0.14" stroke="#fbbf24" stroke-opacity="0.5"/>
-    <g transform="translate(24 24)" color="#fbbf24" style="color:#fbbf24"><path d="M0 -10 C-5 -13 -10 -13 -15 -11 L-15 11 C-10 9 -5 9 0 12 C5 9 10 9 15 11 L15 -11 C10 -13 5 -13 0 -10 Z M0 -10 L0 12" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/></g>
+  <g transform="translate(32 30)">
+    <rect width="44" height="44" rx="11" fill="#141414" stroke="#333"/>
+    <g transform="translate(22 22)"><path d="M0 -8 C-4 -11 -8 -11 -12 -9 L-12 9 C-8 7 -4 7 0 10 C4 7 8 7 12 9 L12 -9 C8 -11 4 -11 0 -8 Z M0 -8 L0 10" fill="none" stroke="#fff" stroke-width="1.8" stroke-linejoin="round"/></g>
   </g>
-  <text x="92" y="58" class="title">HaumeaStudies</text>
-  <text x="492" y="44" text-anchor="end" class="link">VIEW &#8599;</text>
-  <text x="28" y="112" class="desc">Organizes study missions, mock exams, essays,</text><text x="28" y="134" class="desc">mistakes, and review sessions.</text>
-  <g transform="translate(28 160)"><rect width="73" height="26" rx="13" fill="#fbbf24" fill-opacity="0.1" stroke="#fbbf24" stroke-opacity="0.35"/><text x="36" y="17.5" text-anchor="middle" class="chip">Next.js</text></g><g transform="translate(109 160)"><rect width="94" height="26" rx="13" fill="#fbbf24" fill-opacity="0.1" stroke="#fbbf24" stroke-opacity="0.35"/><text x="47" y="17.5" text-anchor="middle" class="chip">TypeScript</text></g><g transform="translate(211 160)"><rect width="80" height="26" rx="13" fill="#fbbf24" fill-opacity="0.1" stroke="#fbbf24" stroke-opacity="0.35"/><text x="40" y="17.5" text-anchor="middle" class="chip">Firebase</text></g>
+  <text x="92" y="50" class="idx">04</text>
+  <text x="92" y="74" class="title">HaumeaStudies</text>
+  <g transform="translate(420 34)">
+    <rect width="68" height="24" rx="12" fill="none" stroke="#3a3a3a"/>
+    <text x="34" y="16" text-anchor="middle" class="tag">EDTECH</text>
+  </g>
+  <text x="32" y="126" class="desc">Study planning platform for missions, mock exams,</text><text x="32" y="149" class="desc">essays, error tracking, and review sessions.</text>
+  <rect x="32" y="182" width="456" height="1" fill="#262626"/>
+  <text x="32" y="210" class="stack">Next.js<tspan fill="#555"> / </tspan>TypeScript<tspan fill="#555"> / </tspan>Firebase</text>
+  <text x="488" y="212" text-anchor="end" class="arrow">&#8599;</text>
 </svg>
