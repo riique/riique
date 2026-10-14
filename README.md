@@ -6,7 +6,7 @@
 <br />
 
 <a href="https://www.instagram.com/henrique.lenz_/"><img src="https://img.shields.io/badge/Instagram-0a0a0a?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
-<a href="https://x.com/riiquestudies"><img src="https://img.shields.io/badge/X-0a0a0a?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
+<a href="https://x.com/"><img src="https://img.shields.io/badge/X-0a0a0a?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
 <a href="https://open.spotify.com/user/fs0ibi8t3pn9vqc2zhh9zkkrl"><img src="https://img.shields.io/badge/Spotify-0a0a0a?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify" /></a>
 
 </div>
