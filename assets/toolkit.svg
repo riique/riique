@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="256" viewBox="0 0 1200 256" role="img" aria-labelledby="t d">
+  <title id="t">Toolkit</title>
+  <desc id="d">Languages: TypeScript, JavaScript, Rust, Python, Go, Java. Frontend and Desktop: React, Next.js, Tailwind CSS, Vite, Electron, Tauri. Backend and Infra: Node.js, Bun, Firebase, Docker, Git.</desc>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0 H0 V40" fill="none" stroke="#ffffff" stroke-opacity="0.045"/>
+    </pattern>
+    <radialGradient id="fade" cx="0.5" cy="0.35" r="0.75">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="gridmask"><rect width="100%" height="100%" fill="url(#fade)"/></mask>
+    <radialGradient id="sheen" cx="0.15" cy="0" r="0.9">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.065"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="clip"><rect width="1200" height="256" rx="20"/></clipPath>
+    <style>
+      .label { font: 600 12px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; fill: #8a8a8a; letter-spacing: 2px; }
+      .cat { font: 600 11px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; fill: #8a8a8a; letter-spacing: 1.6px; }
+      .pill { font: 500 13px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; fill: #ffffff; letter-spacing: 0.2px; }
+    </style>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="256" fill="#0a0a0a"/>
+    <rect width="1200" height="256" fill="url(#grid)" mask="url(#gridmask)"/>
+    <rect width="1200" height="256" fill="url(#sheen)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="255" rx="20" fill="none" stroke="#262626"/>
+
+  <text x="56" y="42" class="label">TOOLKIT</text>
+  <rect x="404" y="64" width="1" height="156" fill="#262626"/>
+  <rect x="780" y="64" width="1" height="156" fill="#262626"/>
+  <text x="56" y="80" class="cat">LANGUAGES</text>
+  <g transform="translate(56 100)">
+    <rect width="154" height="34" rx="8" fill="#111111" stroke="#262626"/>
+    <circle cx="16" cy="17" r="2.5" fill="#8a8a8a"/>
+    <text x="28" y="21.5" class="pill">TypeScript</text>
+  </g>
+  <g transform="translate(222 100)">
+    <rect width="154" height="34" rx="8" fill="#111111" stroke="#262626"/>
+    <circle cx="16" cy="17" r="2.5" fill="#8a8a8a"/>
+    <text x="28" y="21.5" class="pill">JavaScript</text>
+  </g>
+  <g transform="translate(56 146)">
+    <rect width="154" height="34" rx="8" fill="#111111" stroke="#262626"/>
+    <circle cx="16" cy="17" r="2.5" fill="#8a8a8a"/>
+    <text x="28" y="21.5" class="pill">Rust</text>
+  </g>
+  <g transform="translate(222 146)">
+    <rect width="154" height="34" rx="8" fill="#111111" stroke="#262626"/>
+    <circle cx="16" cy="17" r="2.5" fill="#8a8a8a"/>
+    <text x="28" y="21.5" class="pill">Python</text>
+  </g>
+  <g transform="translate(56 192)">
+    <rect width="154" height="34" rx="8" fill="#111111" stroke="#262626"/>
+    <circle cx="16" cy="17" r="2.5" fill="#8a8a8a"/>
+    <text x="28" y="21.5" class="pill">Go</text>
+  </g>
+  <g transform="translate(222 192)">
+    <rect width="154" height="34" rx="8" fill="#111111" stroke="#262626"/>
+    <circle cx="16" cy="17" r="2.5" fill="#8a8a8a"/>
+    <text x="28" y="21.5" class="pill">Java</text>
+  </g>
+  <text x="432" y="80" class="cat">FRONTEND &amp; DESKTOP</text>
+  <g transform="translate(432 100)">
+    <rect width="154" height="34" rx="8" fill="#111111" stroke="#262626"/>
+    <circle cx="16" cy="17" r="2.5" fill="#8a8a8a"/>
+    <text x="28" y="21.5" class="pill">React</text>
+  </g>
+  <g transform="translate(598 100)">
+    <rect width="154" height="34" rx="8" fill="#111111" stroke="#262626"/>
+    <circle cx="16" cy="17" r="2.5" fill="#8a8a8a"/>
+    <text x="28" y="21.5" class="pill">Next.js</text>
+  </g>
+  <g transform="translate(432 146)">
+    <rect width="154" height="34" rx="8" fill="#111111" stroke="#262626"/>
+    <circle cx="16" cy="17" r="2.5" fill="#8a8a8a"/>
+    <text x="28" y="21.5" class="pill">Tailwind CSS</text>
+  </g>
+  <g transform="translate(598 146)">
+    <rect width="154" height="34" rx="8" fill="#111111" stroke="#262626"/>
+    <circle cx="16" cy="17" r="2.5" fill="#8a8a8a"/>
+    <text x="28" y="21.5" class="pill">Vite</text>
+  </g>
+  <g transform="translate(432 192)">
+    <rect width="154" height="34" rx="8" fill="#111111" stroke="#262626"/>
+    <circle cx="16" cy="17" r="2.5" fill="#8a8a8a"/>
+    <text x="28" y="21.5" class="pill">Electron</text>
+  </g>
+  <g transform="translate(598 192)">
+    <rect width="154" height="34" rx="8" fill="#111111" stroke="#262626"/>
+    <circle cx="16" cy="17" r="2.5" fill="#8a8a8a"/>
+    <text x="28" y="21.5" class="pill">Tauri</text>
+  </g>
+  <text x="808" y="80" class="cat">BACKEND &amp; INFRA</text>
+  <g transform="translate(808 100)">
+    <rect width="154" height="34" rx="8" fill="#111111" stroke="#262626"/>
+    <circle cx="16" cy="17" r="2.5" fill="#8a8a8a"/>
+    <text x="28" y="21.5" class="pill">Node.js</text>
+  </g>
+  <g transform="translate(974 100)">
+    <rect width="154" height="34" rx="8" fill="#111111" stroke="#262626"/>
+    <circle cx="16" cy="17" r="2.5" fill="#8a8a8a"/>
+    <text x="28" y="21.5" class="pill">Bun</text>
+  </g>
+  <g transform="translate(808 146)">
+    <rect width="154" height="34" rx="8" fill="#111111" stroke="#262626"/>
+    <circle cx="16" cy="17" r="2.5" fill="#8a8a8a"/>
+    <text x="28" y="21.5" class="pill">Firebase</text>
+  </g>
+  <g transform="translate(974 146)">
+    <rect width="154" height="34" rx="8" fill="#111111" stroke="#262626"/>
+    <circle cx="16" cy="17" r="2.5" fill="#8a8a8a"/>
+    <text x="28" y="21.5" class="pill">Docker</text>
+  </g>
+  <g transform="translate(808 192)">
+    <rect width="154" height="34" rx="8" fill="#111111" stroke="#262626"/>
+    <circle cx="16" cy="17" r="2.5" fill="#8a8a8a"/>
+    <text x="28" y="21.5" class="pill">Git</text>
+  </g>
+</svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="134" height="36" viewBox="0 0 134 36" role="img" aria-label="Instagram">
+  <rect x="0.5" y="0.5" width="133" height="35" rx="10" fill="#0a0a0a" stroke="#262626"/>
+  <rect x="14" y="10" width="16" height="16" rx="4.5" fill="none" stroke="#ffffff" stroke-width="1.6"/><circle cx="22" cy="18" r="3.6" fill="none" stroke="#ffffff" stroke-width="1.6"/><circle cx="26.5" cy="13.5" r="1" fill="#ffffff"/>
+  <text x="40" y="22.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" font-weight="600" letter-spacing="0.8" fill="#ffffff">INSTAGRAM</text>
+</svg>

@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="t d">
+  <title id="t">Henrique V. L.</title>
+  <desc id="d">I design and ship software products end to end, using AI as my primary implementation tool. AI-assisted development, product engineering, and automation.</desc>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0 H0 V40" fill="none" stroke="#0a0a0a" stroke-opacity="0.045"/>
+    </pattern>
+    <radialGradient id="fade" cx="0.5" cy="0.35" r="0.75">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="gridmask"><rect width="100%" height="100%" fill="url(#fade)"/></mask>
+    <radialGradient id="sheen" cx="0.15" cy="0" r="0.9">
+      <stop offset="0" stop-color="#0a0a0a" stop-opacity="0.03"/><stop offset="1" stop-color="#0a0a0a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="accentGlow" cx="0.08" cy="0.12" r="0.65">
+      <stop offset="0" stop-color="#16a34a" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#16a34a" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="clip"><rect width="1200" height="380" rx="24"/></clipPath>
+    <style>
+      .kicker { font: 500 14px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; fill: #737373; letter-spacing: 0.8px; }
+      .name { font: 700 68px 'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #0a0a0a; letter-spacing: -2.5px; }
+      .lead { font: 400 22px 'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #404040; letter-spacing: -0.2px; }
+      .area { font: 600 13px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; fill: #404040; letter-spacing: 1.4px; }
+      .sep { fill: #a3a3a3; font-weight: 400; }
+      .status { font: 500 12px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; fill: #737373; letter-spacing: 1px; }
+      .o1 { animation: spin 9s linear infinite; }
+      .o2 { animation: spin 16s linear infinite reverse; }
+      .o3 { animation: spin 28s linear infinite; }
+      .pulse { animation: pulse 2.4s ease-in-out infinite; }
+      .halo { animation: halo 2.4s ease-in-out infinite; }
+      .caret { animation: blink 1.1s steps(1) infinite; fill: #0a0a0a; }
+      @keyframes spin { to { transform: rotate(360deg); } }
+      @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.45; } }
+      @keyframes halo { 0%, 100% { opacity: 0.32; } 50% { opacity: 0.08; } }
+      @keyframes blink { 50% { opacity: 0; } }
+      @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+    </style>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="380" fill="#ffffff"/>
+    <rect width="1200" height="380" fill="url(#grid)" mask="url(#gridmask)"/>
+    <rect width="1200" height="380" fill="url(#sheen)"/>
+    <rect width="1200" height="380" fill="url(#accentGlow)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="379" rx="24" fill="none" stroke="#e5e5e5"/>
+
+  <text x="72" y="92" class="kicker">~/riique<tspan fill="#0a0a0a"> $ whoami </tspan><tspan class="caret">&#9646;</tspan></text>
+  <text x="72" y="168" class="name">Henrique V. L.</text>
+  <text x="72" y="218" class="lead">I design and ship software products end to end,</text>
+  <text x="72" y="250" class="lead">using AI as my primary implementation tool.</text>
+  <text x="72" y="302" class="area">AI-ASSISTED DEVELOPMENT<tspan class="sep">  /  </tspan>PRODUCT ENGINEERING<tspan class="sep">  /  </tspan>AUTOMATION</text>
+
+  <circle class="halo" cx="78" cy="338" r="8" fill="#16a34a"/>
+  <circle class="pulse" cx="78" cy="338" r="4" fill="#16a34a"/>
+  <text x="96" y="342" class="status">CURRENTLY BUILDING · HAUMEA ECOSYSTEM</text>
+
+  <g transform="translate(968 190)">
+    <circle r="150" fill="none" stroke="#0a0a0a" stroke-opacity="0.07"/>
+    <circle r="112" fill="none" stroke="#0a0a0a" stroke-opacity="0.11" stroke-dasharray="2 6"/>
+    <circle r="74" fill="none" stroke="#0a0a0a" stroke-opacity="0.16"/>
+    <ellipse rx="30" ry="19" fill="#f5f5f5" stroke="#0a0a0a" stroke-opacity="0.85" stroke-width="1.5" transform="rotate(-18)"/>
+    <ellipse rx="52" ry="12" fill="none" stroke="#0a0a0a" stroke-opacity="0.35" stroke-width="1.2" transform="rotate(-18)"/>
+    <g class="o1"><circle cx="74" cy="0" r="4" fill="#0a0a0a"/></g>
+    <g class="o2"><circle cx="0" cy="-112" r="3" fill="#404040"/></g>
+    <g class="o3"><circle cx="-150" cy="0" r="2.5" fill="#737373"/></g>
+    <line x1="-175" y1="0" x2="175" y2="0" stroke="#0a0a0a" stroke-opacity="0.06"/>
+    <line x1="0" y1="-175" x2="0" y2="175" stroke="#0a0a0a" stroke-opacity="0.06"/>
+  </g>
+</svg>

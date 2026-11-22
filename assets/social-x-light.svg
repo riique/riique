@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="74" height="36" viewBox="0 0 74 36" role="img" aria-label="X">
+  <rect x="0.5" y="0.5" width="73" height="35" rx="10" fill="#ffffff" stroke="#e5e5e5"/>
+  <path d="M15 11 L21 18.5 L14.8 25 H17.2 L22.1 19.7 L26 25 H30 L23.6 17 L29.4 11 H27 L22.5 15.8 L19 11 Z" fill="#0a0a0a"/>
+  <text x="40" y="22.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" font-weight="600" letter-spacing="0.8" fill="#0a0a0a">X</text>
+</svg>
